@@ -1,0 +1,1 @@
+docker run   -v /Users/julien/Desktop/kspDMPServer:/   -d   --restart=always -p 6702:6702 ksp_server

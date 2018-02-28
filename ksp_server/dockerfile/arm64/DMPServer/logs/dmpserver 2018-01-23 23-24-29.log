@@ -1,0 +1,612 @@
+[23:24:29][DEBUG] : Loading settings...
+[23:24:29][DEBUG] : System.IO compression works: True, test time: 4 ms.
+[23:24:29][DEBUG] : Loading plugins!
+[23:24:29][DEBUG] : Done!
+[23:24:29][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[23:24:29][INFO] : Loading universe... 
+[23:24:29][INFO] : Starting SUBSPACE server on port 6702... 
+[23:24:29][INFO] : Removed 0 debris
+[23:24:29][INFO] : Ready!
+[23:24:33][DEBUG] : Online players is now: 0, connected: 1
+[23:24:33][INFO] : New client connection from [::ffff:127.0.0.1]:64437
+[23:24:33][DEBUG] : Loading admins
+[23:24:33][INFO] : Client Nanshue handshook successfully, version: v0.2.4.5
+[23:24:33][DEBUG] : Online players is now: 1, connected: 1
+[23:24:33][DEBUG] : Sending Nanshue to subspace 16
+[23:24:33][DEBUG] : Sending Nanshue 4 craft library entries
+[23:24:33][DEBUG] : Sending Nanshue 20 kerbals...
+[23:24:33][DEBUG] : Sending Nanshue 1 vessels, cached: 31...
+[23:24:34][DEBUG] : Online players is now: 1, connected: 2
+[23:24:34][INFO] : New client connection from [::ffff:81.67.40.192]:36473
+[23:24:34][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[23:24:34][DEBUG] : Online players is now: 2, connected: 2
+[23:24:34][DEBUG] : Nanshue acquired lock asteroid-spawning
+[23:24:34][DEBUG] : Sending etiene32 to subspace 16
+[23:24:34][DEBUG] : Sending etiene32 4 craft library entries
+[23:24:34][DEBUG] : Sending etiene32 20 kerbals...
+[23:24:35][DEBUG] : Sending etiene32 32 vessels, cached: 0...
+[23:25:04][DEBUG] : Saving 8 scenario modules from Nanshue
+[23:25:10][DEBUG] : Saving 12 scenario modules from etiene32
+[23:25:15][DEBUG] : Nanshue acquired lock control-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:25:15][DEBUG] : Nanshue acquired lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:25:15][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:25:15][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:25:34][DEBUG] : Saving 5 scenario modules from Nanshue
+[23:25:36][DEBUG] : etiene32 acquired lock control-34c969ca-dd54-47a7-9b4e-79b4e85bb407
+[23:25:36][DEBUG] : etiene32 acquired lock update-34c969ca-dd54-47a7-9b4e-79b4e85bb407
+[23:25:36][DEBUG] : Saving vessel 34c969ca-dd54-47a7-9b4e-79b4e85bb407 from etiene32
+[23:25:39][DEBUG] : Saving 1 scenario modules from etiene32
+[23:25:45][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:25:55][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:26:04][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:26:06][DEBUG] : Saving vessel 34c969ca-dd54-47a7-9b4e-79b4e85bb407 from etiene32
+[23:26:08][DEBUG] : Saving vessel 34c969ca-dd54-47a7-9b4e-79b4e85bb407 from etiene32
+[23:26:08][DEBUG] : etiene32 acquired lock update-f21b4e9f-1516-4342-aa19-31ef384baeff
+[23:26:08][DEBUG] : Saving vessel f21b4e9f-1516-4342-aa19-31ef384baeff from etiene32
+[23:26:09][DEBUG] : Saving 1 scenario modules from etiene32
+[23:26:19][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:26:19][DEBUG] : Nanshue acquired lock update-60fa662e-4ed7-4786-9bf8-4535fb7b2258
+[23:26:19][DEBUG] : Relaying FLYING vessel 60fa662e-4ed7-4786-9bf8-4535fb7b2258 from Nanshue
+[23:26:19][DEBUG] : Nanshue acquired lock update-e8848140-05c0-4841-839d-8f59ddc72f99
+[23:26:19][DEBUG] : Relaying FLYING vessel e8848140-05c0-4841-839d-8f59ddc72f99 from Nanshue
+[23:26:19][DEBUG] : Nanshue acquired lock update-b9cc4a15-3d85-44a5-b950-924d9e903e14
+[23:26:19][DEBUG] : Relaying FLYING vessel b9cc4a15-3d85-44a5-b950-924d9e903e14 from Nanshue
+[23:26:19][DEBUG] : Nanshue acquired lock update-be7e0447-5839-4136-8c5b-e58e564bcbf6
+[23:26:19][DEBUG] : Relaying FLYING vessel be7e0447-5839-4136-8c5b-e58e564bcbf6 from Nanshue
+[23:26:19][DEBUG] : Nanshue acquired lock update-d40478d4-ac4e-4fa5-9c38-78fc0fc74f53
+[23:26:19][DEBUG] : Relaying FLYING vessel d40478d4-ac4e-4fa5-9c38-78fc0fc74f53 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel b9cc4a15-3d85-44a5-b950-924d9e903e14 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel e8848140-05c0-4841-839d-8f59ddc72f99 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel d40478d4-ac4e-4fa5-9c38-78fc0fc74f53 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel be7e0447-5839-4136-8c5b-e58e564bcbf6 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel e8848140-05c0-4841-839d-8f59ddc72f99 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel d40478d4-ac4e-4fa5-9c38-78fc0fc74f53 from Nanshue
+[23:26:19][DEBUG] : Relaying FLYING vessel be7e0447-5839-4136-8c5b-e58e564bcbf6 from Nanshue
+[23:26:19][DEBUG] : Removing vessel b9cc4a15-3d85-44a5-b950-924d9e903e14 from Nanshue
+[23:26:20][DEBUG] : Relaying FLYING vessel 34c969ca-dd54-47a7-9b4e-79b4e85bb407 from etiene32
+[23:26:20][DEBUG] : Relaying FLYING vessel f21b4e9f-1516-4342-aa19-31ef384baeff from etiene32
+[23:26:24][DEBUG] : Nanshue released lock update-b9cc4a15-3d85-44a5-b950-924d9e903e14
+[23:26:35][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:26:35][DEBUG] : Create subspace
+[23:26:35][DEBUG] : Sending Nanshue to subspace 17
+[23:26:36][DEBUG] : Nanshue released lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:26:36][DEBUG] : Nanshue released lock update-60fa662e-4ed7-4786-9bf8-4535fb7b2258
+[23:26:36][DEBUG] : Nanshue released lock update-e8848140-05c0-4841-839d-8f59ddc72f99
+[23:26:36][DEBUG] : Nanshue released lock update-be7e0447-5839-4136-8c5b-e58e564bcbf6
+[23:26:36][DEBUG] : Nanshue released lock update-d40478d4-ac4e-4fa5-9c38-78fc0fc74f53
+[23:26:36][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:26:37][DEBUG] : Nanshue acquired lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:26:37][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:26:41][DEBUG] : Create subspace
+[23:26:41][DEBUG] : Sending etiene32 to subspace 18
+[23:26:41][DEBUG] : Saving 1 scenario modules from etiene32
+[23:26:58][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:27:00][DEBUG] : etiene32 released lock update-34c969ca-dd54-47a7-9b4e-79b4e85bb407
+[23:27:00][DEBUG] : etiene32 released lock update-f21b4e9f-1516-4342-aa19-31ef384baeff
+[23:27:00][DEBUG] : etiene32 released lock control-34c969ca-dd54-47a7-9b4e-79b4e85bb407
+[23:27:05][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:27:11][DEBUG] : Saving 1 scenario modules from etiene32
+[23:27:22][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:27:22][DEBUG] : Nanshue acquired lock update-85de325a-bde1-48ad-b563-6d61e8a724d5
+[23:27:22][DEBUG] : Relaying FLYING vessel 85de325a-bde1-48ad-b563-6d61e8a724d5 from Nanshue
+[23:27:22][DEBUG] : Nanshue acquired lock update-1f030be4-b4db-42ba-95ad-4907b3210d8b
+[23:27:22][DEBUG] : Relaying FLYING vessel 1f030be4-b4db-42ba-95ad-4907b3210d8b from Nanshue
+[23:27:22][DEBUG] : Nanshue acquired lock update-8d7babd3-ae29-4eb4-a807-1f474210ba43
+[23:27:22][DEBUG] : Relaying FLYING vessel 8d7babd3-ae29-4eb4-a807-1f474210ba43 from Nanshue
+[23:27:22][DEBUG] : Nanshue acquired lock update-8494d5e8-155d-40da-bb1b-81e341ba521c
+[23:27:22][DEBUG] : Relaying FLYING vessel 8494d5e8-155d-40da-bb1b-81e341ba521c from Nanshue
+[23:27:25][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:27:25][DEBUG] : Nanshue acquired lock update-67d3b50c-0f55-49e2-b7d7-66ff75f180f4
+[23:27:25][DEBUG] : Relaying FLYING vessel 67d3b50c-0f55-49e2-b7d7-66ff75f180f4 from Nanshue
+[23:27:32][DEBUG] : Saving KerminR4, type: VAB from etiene32
+[23:27:35][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:27:52][DEBUG] : Relaying FLYING vessel 85de325a-bde1-48ad-b563-6d61e8a724d5 from Nanshue
+[23:27:52][DEBUG] : Relaying FLYING vessel 8494d5e8-155d-40da-bb1b-81e341ba521c from Nanshue
+[23:27:52][DEBUG] : Relaying FLYING vessel 1f030be4-b4db-42ba-95ad-4907b3210d8b from Nanshue
+[23:27:52][DEBUG] : Relaying FLYING vessel 8d7babd3-ae29-4eb4-a807-1f474210ba43 from Nanshue
+[23:27:55][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:27:55][DEBUG] : Relaying FLYING vessel 67d3b50c-0f55-49e2-b7d7-66ff75f180f4 from Nanshue
+[23:28:04][DEBUG] : Nanshue released lock update-67d3b50c-0f55-49e2-b7d7-66ff75f180f4
+[23:28:04][DEBUG] : Relaying FLYING vessel 67d3b50c-0f55-49e2-b7d7-66ff75f180f4 from Nanshue
+[23:28:05][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:28:05][DEBUG] : Nanshue released lock update-8d7babd3-ae29-4eb4-a807-1f474210ba43
+[23:28:05][DEBUG] : Relaying FLYING vessel 8d7babd3-ae29-4eb4-a807-1f474210ba43 from Nanshue
+[23:28:05][DEBUG] : Nanshue released lock update-1f030be4-b4db-42ba-95ad-4907b3210d8b
+[23:28:05][DEBUG] : Relaying FLYING vessel 1f030be4-b4db-42ba-95ad-4907b3210d8b from Nanshue
+[23:28:05][DEBUG] : Relaying FLYING vessel 8494d5e8-155d-40da-bb1b-81e341ba521c from Nanshue
+[23:28:05][DEBUG] : Nanshue released lock update-8494d5e8-155d-40da-bb1b-81e341ba521c
+[23:28:05][DEBUG] : Nanshue released lock update-85de325a-bde1-48ad-b563-6d61e8a724d5
+[23:28:05][DEBUG] : Relaying FLYING vessel 85de325a-bde1-48ad-b563-6d61e8a724d5 from Nanshue
+[23:28:11][DEBUG] : Saving 1 scenario modules from etiene32
+[23:28:15][DEBUG] : etiene32 acquired lock control-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:28:15][DEBUG] : etiene32 acquired lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:28:16][DEBUG] : Saving kerbal Valentina Kerman from etiene32
+[23:28:16][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:28:17][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:28:20][DEBUG] : Removing vessel 34c969ca-dd54-47a7-9b4e-79b4e85bb407 from etiene32
+[23:28:26][DEBUG] : Saving kerbal Valentina Kerman from etiene32
+[23:28:26][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:28:35][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:28:37][DEBUG] : Removing vessel 67d3b50c-0f55-49e2-b7d7-66ff75f180f4 from Nanshue
+[23:28:41][DEBUG] : Saving 1 scenario modules from etiene32
+[23:28:42][DEBUG] : Removing vessel 85de325a-bde1-48ad-b563-6d61e8a724d5 from Nanshue
+[23:28:42][DEBUG] : Removing vessel 8d7babd3-ae29-4eb4-a807-1f474210ba43 from Nanshue
+[23:28:42][DEBUG] : Removing vessel 8494d5e8-155d-40da-bb1b-81e341ba521c from Nanshue
+[23:28:42][DEBUG] : Removing vessel 1f030be4-b4db-42ba-95ad-4907b3210d8b from Nanshue
+[23:28:47][DEBUG] : Create subspace
+[23:28:47][DEBUG] : Sending Nanshue to subspace 19
+[23:28:47][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:28:47][DEBUG] : Nanshue released lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:28:47][DEBUG] : Nanshue acquired lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:28:47][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:28:56][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:29:05][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:29:11][DEBUG] : Saving 1 scenario modules from etiene32
+[23:29:17][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:29:26][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:29:35][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:29:36][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-b3ef1676-4c69-407e-8f50-2b323e6f75e0
+[23:29:36][DEBUG] : Relaying FLYING vessel b3ef1676-4c69-407e-8f50-2b323e6f75e0 from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-7c7bf0e6-16c3-4df1-8031-4f91435987ce
+[23:29:36][DEBUG] : Relaying FLYING vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-f9b09f7e-956f-4e86-b469-451ff094b938
+[23:29:36][DEBUG] : Relaying FLYING vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-07396810-1b6d-47b3-bd96-8bb5054a924f
+[23:29:36][DEBUG] : Relaying FLYING vessel 07396810-1b6d-47b3-bd96-8bb5054a924f from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-34792dee-9270-451e-9bbe-2fd603765b6c
+[23:29:36][DEBUG] : Relaying FLYING vessel 34792dee-9270-451e-9bbe-2fd603765b6c from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-029f3460-ac79-4969-aedf-89e717c841c1
+[23:29:36][DEBUG] : Relaying FLYING vessel 029f3460-ac79-4969-aedf-89e717c841c1 from etiene32
+[23:29:36][DEBUG] : etiene32 acquired lock update-a8c6c5b9-2368-46c7-9fdf-972c0ca837b6
+[23:29:36][DEBUG] : Relaying FLYING vessel a8c6c5b9-2368-46c7-9fdf-972c0ca837b6 from etiene32
+[23:29:36][DEBUG] : Relaying FLYING vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:29:36][DEBUG] : Relaying FLYING vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:29:41][DEBUG] : Create subspace
+[23:29:41][DEBUG] : Sending Nanshue to subspace 20
+[23:29:41][DEBUG] : Saving 1 scenario modules from etiene32
+[23:29:47][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:29:47][DEBUG] : Nanshue acquired lock update-77aeb876-ce8c-43b1-ae65-f7716f98ee5e
+[23:29:47][DEBUG] : Saving vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:29:58][DEBUG] : Create subspace
+[23:29:58][DEBUG] : Sending Nanshue to subspace 21
+[23:29:58][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:29:58][DEBUG] : Relaying FLYING vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:30:05][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:30:06][DEBUG] : Create subspace
+[23:30:06][DEBUG] : Sending Nanshue to subspace 22
+[23:30:06][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel b3ef1676-4c69-407e-8f50-2b323e6f75e0 from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel 07396810-1b6d-47b3-bd96-8bb5054a924f from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel a8c6c5b9-2368-46c7-9fdf-972c0ca837b6 from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel 029f3460-ac79-4969-aedf-89e717c841c1 from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel 34792dee-9270-451e-9bbe-2fd603765b6c from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:30:06][DEBUG] : Relaying FLYING vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:30:11][DEBUG] : Saving 1 scenario modules from etiene32
+[23:30:23][DEBUG] : Relaying FLYING vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:30:28][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:30:35][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:30:37][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel b3ef1676-4c69-407e-8f50-2b323e6f75e0 from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel 07396810-1b6d-47b3-bd96-8bb5054a924f from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel a8c6c5b9-2368-46c7-9fdf-972c0ca837b6 from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel 029f3460-ac79-4969-aedf-89e717c841c1 from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel 34792dee-9270-451e-9bbe-2fd603765b6c from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:30:37][DEBUG] : Relaying FLYING vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:30:41][DEBUG] : Saving 1 scenario modules from etiene32
+[23:30:51][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:30:51][DEBUG] : etiene32 acquired lock update-49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f
+[23:30:51][DEBUG] : Relaying FLYING vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:30:51][DEBUG] : etiene32 acquired lock update-0a68e505-7ed0-4098-b879-26780bf6177d
+[23:30:51][DEBUG] : Relaying FLYING vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:30:51][DEBUG] : etiene32 acquired lock update-09cba39b-653c-43d1-b413-4ee85dda1b65
+[23:30:51][DEBUG] : Relaying FLYING vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:30:51][DEBUG] : etiene32 acquired lock update-3f03be6e-e09d-4782-abdf-f5dcbe311c4d
+[23:30:51][DEBUG] : Relaying FLYING vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:30:51][DEBUG] : etiene32 acquired lock update-05db80b2-fc18-4af8-b5dd-81b5aed79d85
+[23:30:51][DEBUG] : Relaying FLYING vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:30:53][DEBUG] : Relaying FLYING vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:30:53][DEBUG] : Relaying FLYING vessel b3ef1676-4c69-407e-8f50-2b323e6f75e0 from etiene32
+[23:30:53][DEBUG] : etiene32 released lock update-b3ef1676-4c69-407e-8f50-2b323e6f75e0
+[23:30:53][DEBUG] : etiene32 released lock update-7c7bf0e6-16c3-4df1-8031-4f91435987ce
+[23:30:53][DEBUG] : Relaying FLYING vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:30:53][DEBUG] : etiene32 released lock update-f9b09f7e-956f-4e86-b469-451ff094b938
+[23:30:53][DEBUG] : Relaying FLYING vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:30:53][DEBUG] : etiene32 released lock update-07396810-1b6d-47b3-bd96-8bb5054a924f
+[23:30:53][DEBUG] : Relaying FLYING vessel 07396810-1b6d-47b3-bd96-8bb5054a924f from etiene32
+[23:30:53][DEBUG] : etiene32 released lock update-34792dee-9270-451e-9bbe-2fd603765b6c
+[23:30:54][DEBUG] : Relaying FLYING vessel 34792dee-9270-451e-9bbe-2fd603765b6c from etiene32
+[23:30:54][DEBUG] : etiene32 released lock update-029f3460-ac79-4969-aedf-89e717c841c1
+[23:30:54][DEBUG] : Relaying FLYING vessel 029f3460-ac79-4969-aedf-89e717c841c1 from etiene32
+[23:30:54][DEBUG] : etiene32 released lock update-a8c6c5b9-2368-46c7-9fdf-972c0ca837b6
+[23:30:54][DEBUG] : Relaying FLYING vessel a8c6c5b9-2368-46c7-9fdf-972c0ca837b6 from etiene32
+[23:30:54][DEBUG] : Removing vessel b3ef1676-4c69-407e-8f50-2b323e6f75e0 from etiene32
+[23:30:54][DEBUG] : etiene32 acquired lock update-931fb710-d4a0-4d0d-b9dc-fb2c2d02f7be
+[23:30:54][DEBUG] : Relaying FLYING vessel 931fb710-d4a0-4d0d-b9dc-fb2c2d02f7be from etiene32
+[23:30:55][DEBUG] : Removing vessel 931fb710-d4a0-4d0d-b9dc-fb2c2d02f7be from etiene32
+[23:30:56][DEBUG] : Removing vessel f9b09f7e-956f-4e86-b469-451ff094b938 from etiene32
+[23:30:56][DEBUG] : Removing vessel 7c7bf0e6-16c3-4df1-8031-4f91435987ce from etiene32
+[23:30:56][DEBUG] : Removing vessel 34792dee-9270-451e-9bbe-2fd603765b6c from etiene32
+[23:30:56][DEBUG] : Removing vessel 029f3460-ac79-4969-aedf-89e717c841c1 from etiene32
+[23:30:56][DEBUG] : Removing vessel a8c6c5b9-2368-46c7-9fdf-972c0ca837b6 from etiene32
+[23:30:57][DEBUG] : Removing vessel 07396810-1b6d-47b3-bd96-8bb5054a924f from etiene32
+[23:30:58][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:31:00][DEBUG] : etiene32 released lock update-931fb710-d4a0-4d0d-b9dc-fb2c2d02f7be
+[23:31:05][DEBUG] : Create subspace
+[23:31:05][DEBUG] : Sending Nanshue to subspace 23
+[23:31:05][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:31:08][DEBUG] : Create subspace
+[23:31:08][DEBUG] : Sending Nanshue to subspace 24
+[23:31:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:31:21][DEBUG] : Relaying FLYING vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:31:23][DEBUG] : Relaying FLYING vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:31:27][DEBUG] : Removing vessel 77aeb876-ce8c-43b1-ae65-f7716f98ee5e from Nanshue
+[23:31:27][DEBUG] : Nanshue acquired lock update-344c9a00-b235-4a39-90a1-72a4a2fd8e69
+[23:31:27][DEBUG] : Relaying FLYING vessel 344c9a00-b235-4a39-90a1-72a4a2fd8e69 from Nanshue
+[23:31:27][DEBUG] : Removing vessel 344c9a00-b235-4a39-90a1-72a4a2fd8e69 from Nanshue
+[23:31:28][DEBUG] : Relaying FLYING vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:31:29][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:31:32][DEBUG] : Nanshue released lock update-77aeb876-ce8c-43b1-ae65-f7716f98ee5e
+[23:31:32][DEBUG] : Nanshue released lock update-344c9a00-b235-4a39-90a1-72a4a2fd8e69
+[23:31:40][DEBUG] : Create subspace
+[23:31:40][DEBUG] : Sending Nanshue to subspace 25
+[23:31:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:31:43][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:31:43][DEBUG] : Removing vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from Nanshue
+[23:31:44][DEBUG] : Nanshue released lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:31:44][DEBUG] : Nanshue released lock control-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:31:51][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:31:51][DEBUG] : Relaying FLYING vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:31:52][DEBUG] : Relaying FLYING vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:31:52][DEBUG] : Relaying FLYING vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:31:52][DEBUG] : Relaying FLYING vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:31:52][DEBUG] : Relaying FLYING vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:32:05][DEBUG] : Saving 3 scenario modules from Nanshue
+[23:32:09][DEBUG] : Sending Nanshue KerminR4 from etiene32
+[23:32:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:32:16][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:32:17][DEBUG] : Saving vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:32:17][DEBUG] : Saving vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:32:17][DEBUG] : Saving vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:32:17][DEBUG] : Saving vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:32:19][DEBUG] : Saving vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:32:28][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f
+[23:32:28][DEBUG] : Saving vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-0a68e505-7ed0-4098-b879-26780bf6177d
+[23:32:28][DEBUG] : Saving vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-09cba39b-653c-43d1-b413-4ee85dda1b65
+[23:32:28][DEBUG] : Saving vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-3f03be6e-e09d-4782-abdf-f5dcbe311c4d
+[23:32:28][DEBUG] : Saving vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:32:28][DEBUG] : etiene32 released lock update-05db80b2-fc18-4af8-b5dd-81b5aed79d85
+[23:32:28][DEBUG] : Saving vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:32:35][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:32:35][DEBUG] : Saving vessel 1302b03f-8f43-4afc-a869-d102f337e4a8 from Nanshue
+[23:32:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:32:50][DEBUG] : Create subspace
+[23:32:50][DEBUG] : Sending etiene32 to subspace 26
+[23:32:50][DEBUG] : etiene32 acquired lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:32:50][DEBUG] : Saving kerbal Valentina Kerman from etiene32
+[23:32:50][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:33:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:33:20][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:33:35][DEBUG] : Saving vessel a770c268-1fc5-47b2-950a-bd6295056c81 from Nanshue
+[23:33:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:33:42][DEBUG] : Saving 2 scenario modules from etiene32
+[23:34:05][DEBUG] : Saving kerbal Valentina Kerman from etiene32
+[23:34:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:34:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:34:35][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:34:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:34:42][DEBUG] : Saving 2 scenario modules from etiene32
+[23:35:05][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:35:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:35:12][DEBUG] : Saving 2 scenario modules from etiene32
+[23:35:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:35:42][DEBUG] : Saving 2 scenario modules from etiene32
+[23:36:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:36:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:36:25][DEBUG] : Saving screenshot from Nanshue
+[23:36:28][DEBUG] : Saving screenshot from Nanshue
+[23:36:32][DEBUG] : etiene32 is watching screenshots from Nanshue
+[23:36:32][DEBUG] : Sending saved screenshot from Nanshue to etiene32
+[23:36:32][DEBUG] : Optimizing etiene32 (565434 bytes queued)
+[23:36:32][DEBUG] : Optimized 0 bytes in 1,499 ms.
+[23:36:34][DEBUG] : Nanshue is watching screenshots from Nanshue
+[23:36:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:36:38][DEBUG] : etiene32 is no longer watching screenshots from Nanshue
+[23:36:40][DEBUG] : etiene32 is watching screenshots from Nanshue
+[23:36:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:36:52][DEBUG] : etiene32 is no longer watching screenshots from Nanshue
+[23:37:05][DEBUG] : Nanshue is no longer watching screenshots from Nanshue
+[23:37:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:37:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:37:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:37:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:38:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:38:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:38:35][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:38:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:38:56][DEBUG] : Removing vessel 49b3ffc9-8008-4ce4-abd6-3bcc66f1f32f from etiene32
+[23:39:05][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:39:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:39:21][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:39:35][DEBUG] : Removing vessel 3f03be6e-e09d-4782-abdf-f5dcbe311c4d from etiene32
+[23:39:42][DEBUG] : Removing vessel 05db80b2-fc18-4af8-b5dd-81b5aed79d85 from etiene32
+[23:39:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:39:44][DEBUG] : Removing vessel 0a68e505-7ed0-4098-b879-26780bf6177d from etiene32
+[23:39:50][DEBUG] : Removing vessel 09cba39b-653c-43d1-b413-4ee85dda1b65 from etiene32
+[23:39:51][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:40:12][DEBUG] : Saving 2 scenario modules from etiene32
+[23:40:21][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:40:26][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:40:26][DEBUG] : etiene32 acquired lock update-9c161649-adb6-42c0-aea0-44c21655b678
+[23:40:26][DEBUG] : Saving vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:40:42][DEBUG] : Saving 2 scenario modules from etiene32
+[23:40:56][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:40:56][DEBUG] : Saving vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:41:12][DEBUG] : etiene32 released lock update-9c161649-adb6-42c0-aea0-44c21655b678
+[23:41:12][DEBUG] : Saving vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:41:12][DEBUG] : etiene32 released lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:41:12][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:41:12][DEBUG] : Saving 2 scenario modules from etiene32
+[23:41:13][DEBUG] : Create subspace
+[23:41:13][DEBUG] : Sending etiene32 to subspace 27
+[23:41:13][DEBUG] : etiene32 acquired lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:41:26][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:41:42][DEBUG] : Saving 2 scenario modules from etiene32
+[23:41:56][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:42:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:42:25][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:42:27][DEBUG] : etiene32 acquired lock update-9c161649-adb6-42c0-aea0-44c21655b678
+[23:42:27][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:42:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:42:55][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:42:57][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:43:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:43:25][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:43:27][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:43:38][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:43:41][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:43:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:43:57][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:44:08][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:44:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:44:16][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:44:16][DEBUG] : Nanshue acquired lock control-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:44:16][DEBUG] : Nanshue acquired lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:44:16][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:44:16][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:44:27][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:44:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:44:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:44:46][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:44:46][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:44:57][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:45:06][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:45:09][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:45:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:45:16][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:45:27][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:45:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:45:39][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:45:39][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:45:42][DEBUG] : Saving 1 scenario modules from etiene32
+[23:45:46][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:45:51][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:45:51][DEBUG] : Nanshue acquired lock update-3f54d058-9d59-401a-bd4c-15bb5ad4c711
+[23:45:51][DEBUG] : Relaying FLYING vessel 3f54d058-9d59-401a-bd4c-15bb5ad4c711 from Nanshue
+[23:45:51][DEBUG] : Nanshue acquired lock update-dab0d401-08f8-4c65-8cc6-865985db691f
+[23:45:51][DEBUG] : Relaying FLYING vessel dab0d401-08f8-4c65-8cc6-865985db691f from Nanshue
+[23:45:51][DEBUG] : Nanshue acquired lock update-62e8b98f-11a1-406d-8ee3-daabd6d90861
+[23:45:51][DEBUG] : Relaying FLYING vessel 62e8b98f-11a1-406d-8ee3-daabd6d90861 from Nanshue
+[23:45:51][DEBUG] : Nanshue acquired lock update-856b54e0-dd0a-43c8-be86-f20307ab7472
+[23:45:51][DEBUG] : Relaying FLYING vessel 856b54e0-dd0a-43c8-be86-f20307ab7472 from Nanshue
+[23:45:51][DEBUG] : Nanshue acquired lock update-eb9fcc41-40d0-40a7-b64d-1a15329600bf
+[23:45:51][DEBUG] : Relaying FLYING vessel eb9fcc41-40d0-40a7-b64d-1a15329600bf from Nanshue
+[23:45:57][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:46:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:46:12][DEBUG] : Saving 1 scenario modules from etiene32
+[23:46:15][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:46:16][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:46:17][DEBUG] : etiene32 released lock update-9c161649-adb6-42c0-aea0-44c21655b678
+[23:46:17][DEBUG] : Relaying FLYING vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:46:17][DEBUG] : Removing vessel 9c161649-adb6-42c0-aea0-44c21655b678 from etiene32
+[23:46:20][DEBUG] : Saving vessel eb9fcc41-40d0-40a7-b64d-1a15329600bf from Nanshue
+[23:46:20][DEBUG] : Saving vessel dab0d401-08f8-4c65-8cc6-865985db691f from Nanshue
+[23:46:20][DEBUG] : Saving vessel 856b54e0-dd0a-43c8-be86-f20307ab7472 from Nanshue
+[23:46:21][DEBUG] : Saving vessel 3f54d058-9d59-401a-bd4c-15bb5ad4c711 from Nanshue
+[23:46:25][DEBUG] : Nanshue released lock update-62e8b98f-11a1-406d-8ee3-daabd6d90861
+[23:46:25][DEBUG] : Saving vessel 62e8b98f-11a1-406d-8ee3-daabd6d90861 from Nanshue
+[23:46:25][DEBUG] : Nanshue released lock update-eb9fcc41-40d0-40a7-b64d-1a15329600bf
+[23:46:25][DEBUG] : Saving vessel eb9fcc41-40d0-40a7-b64d-1a15329600bf from Nanshue
+[23:46:25][DEBUG] : Nanshue released lock update-dab0d401-08f8-4c65-8cc6-865985db691f
+[23:46:25][DEBUG] : Saving vessel dab0d401-08f8-4c65-8cc6-865985db691f from Nanshue
+[23:46:25][DEBUG] : Nanshue released lock update-856b54e0-dd0a-43c8-be86-f20307ab7472
+[23:46:25][DEBUG] : Saving vessel 856b54e0-dd0a-43c8-be86-f20307ab7472 from Nanshue
+[23:46:26][DEBUG] : Create subspace
+[23:46:26][DEBUG] : Sending etiene32 to subspace 28
+[23:46:26][DEBUG] : Saving vessel 3f54d058-9d59-401a-bd4c-15bb5ad4c711 from Nanshue
+[23:46:26][DEBUG] : Nanshue released lock update-3f54d058-9d59-401a-bd4c-15bb5ad4c711
+[23:46:32][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:46:32][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:46:32][DEBUG] : Nanshue acquired lock update-5013f187-f310-4c29-91cc-de12cad350a4
+[23:46:32][DEBUG] : Saving vessel 5013f187-f310-4c29-91cc-de12cad350a4 from Nanshue
+[23:46:36][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:46:43][DEBUG] : Saving 1 scenario modules from etiene32
+[23:46:46][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:46:54][DEBUG] : Create subspace
+[23:46:54][DEBUG] : Sending Nanshue to subspace 29
+[23:46:55][DEBUG] : Nanshue released lock update-5013f187-f310-4c29-91cc-de12cad350a4
+[23:46:55][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:46:55][DEBUG] : Nanshue released lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:46:56][DEBUG] : Nanshue acquired lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:46:56][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:46:56][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:06][DEBUG] : Saving 3 scenario modules from Nanshue
+[23:47:06][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:47:06][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:13][DEBUG] : Saving 1 scenario modules from etiene32
+[23:47:16][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:47:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:47:36][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:43][DEBUG] : Saving 1 scenario modules from etiene32
+[23:47:43][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:44][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:45][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:46][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:47:46][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:46][DEBUG] : Relaying FLYING vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:47:46][DEBUG] : Nanshue acquired lock update-8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6
+[23:47:46][DEBUG] : Relaying FLYING vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:47:46][DEBUG] : Nanshue acquired lock update-ffad9e5c-e0af-4179-8fe5-1a2581f09e43
+[23:47:46][DEBUG] : Relaying FLYING vessel ffad9e5c-e0af-4179-8fe5-1a2581f09e43 from Nanshue
+[23:47:46][DEBUG] : Nanshue acquired lock update-230e5cc4-24a9-41ec-b92f-109953f4cf5b
+[23:47:47][DEBUG] : Relaying FLYING vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:47:47][DEBUG] : Nanshue acquired lock update-1f98dea4-1298-41d9-aafc-61fad7f5604d
+[23:47:47][DEBUG] : Relaying FLYING vessel 1f98dea4-1298-41d9-aafc-61fad7f5604d from Nanshue
+[23:47:47][DEBUG] : Nanshue acquired lock update-6a0ec37a-2aae-40e1-ad64-749f964ec29e
+[23:47:47][DEBUG] : Relaying FLYING vessel 6a0ec37a-2aae-40e1-ad64-749f964ec29e from Nanshue
+[23:47:56][DEBUG] : Create subspace
+[23:47:56][DEBUG] : Sending etiene32 to subspace 30
+[23:48:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:48:13][DEBUG] : Saving 1 scenario modules from etiene32
+[23:48:15][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:48:16][DEBUG] : Saving vessel 1f98dea4-1298-41d9-aafc-61fad7f5604d from Nanshue
+[23:48:16][DEBUG] : Saving vessel 6a0ec37a-2aae-40e1-ad64-749f964ec29e from Nanshue
+[23:48:16][DEBUG] : Relaying FLYING vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:48:16][DEBUG] : Saving vessel ffad9e5c-e0af-4179-8fe5-1a2581f09e43 from Nanshue
+[23:48:16][DEBUG] : Relaying FLYING vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:48:16][DEBUG] : Relaying FLYING vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:48:21][DEBUG] : Create subspace
+[23:48:21][DEBUG] : Sending etiene32 to subspace 31
+[23:48:22][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:48:26][DEBUG] : Saving vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:48:27][DEBUG] : Saving vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:48:36][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:48:43][DEBUG] : Saving 3 scenario modules from etiene32
+[23:48:45][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:48:45][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:48:46][DEBUG] : Saving vessel 1f98dea4-1298-41d9-aafc-61fad7f5604d from Nanshue
+[23:48:46][DEBUG] : Saving vessel 6a0ec37a-2aae-40e1-ad64-749f964ec29e from Nanshue
+[23:48:46][DEBUG] : Saving vessel ffad9e5c-e0af-4179-8fe5-1a2581f09e43 from Nanshue
+[23:48:56][DEBUG] : Saving vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:48:56][DEBUG] : Saving vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:49:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:49:09][DEBUG] : Saving kerbal Valentina Kerman from etiene32
+[23:49:09][DEBUG] : Removing vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from etiene32
+[23:49:10][DEBUG] : etiene32 released lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:49:10][DEBUG] : etiene32 released lock control-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:49:10][DEBUG] : Nanshue released lock update-8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6
+[23:49:10][DEBUG] : Saving vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:49:10][DEBUG] : Saving vessel ffad9e5c-e0af-4179-8fe5-1a2581f09e43 from Nanshue
+[23:49:10][DEBUG] : Nanshue released lock update-ffad9e5c-e0af-4179-8fe5-1a2581f09e43
+[23:49:10][DEBUG] : Nanshue released lock update-6a0ec37a-2aae-40e1-ad64-749f964ec29e
+[23:49:10][DEBUG] : Saving vessel 6a0ec37a-2aae-40e1-ad64-749f964ec29e from Nanshue
+[23:49:10][DEBUG] : Nanshue released lock update-1f98dea4-1298-41d9-aafc-61fad7f5604d
+[23:49:10][DEBUG] : Saving vessel 1f98dea4-1298-41d9-aafc-61fad7f5604d from Nanshue
+[23:49:10][DEBUG] : Saving vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:49:10][DEBUG] : Nanshue released lock update-230e5cc4-24a9-41ec-b92f-109953f4cf5b
+[23:49:11][DEBUG] : Nanshue released lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:49:11][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:49:13][DEBUG] : Create subspace
+[23:49:13][DEBUG] : Sending Nanshue to subspace 32
+[23:49:13][DEBUG] : Nanshue acquired lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:49:13][DEBUG] : Saving 2 scenario modules from etiene32
+[23:49:15][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:49:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:49:43][DEBUG] : Saving 1 scenario modules from etiene32
+[23:49:45][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:50:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:50:13][DEBUG] : Saving 1 scenario modules from etiene32
+[23:50:15][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:50:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:50:46][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:51:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:51:15][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:51:22][DEBUG] : Saving 1 scenario modules from etiene32
+[23:51:25][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:51:25][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:51:28][DEBUG] : etiene32 acquired lock control-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:51:28][DEBUG] : etiene32 acquired lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:51:28][DEBUG] : Saving kerbal Hademy Kerman from etiene32
+[23:51:28][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from etiene32
+[23:51:36][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:51:42][DEBUG] : etiene32 released lock update-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:51:42][DEBUG] : etiene32 released lock control-598014b1-4a3c-4154-bdb9-0d34ce657799
+[23:51:42][DEBUG] : Saving vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from etiene32
+[23:51:51][DEBUG] : Removing vessel 6a0ec37a-2aae-40e1-ad64-749f964ec29e from Nanshue
+[23:51:51][DEBUG] : Removing vessel 1f98dea4-1298-41d9-aafc-61fad7f5604d from Nanshue
+[23:51:51][DEBUG] : Removing vessel ffad9e5c-e0af-4179-8fe5-1a2581f09e43 from Nanshue
+[23:51:51][DEBUG] : Removing vessel 230e5cc4-24a9-41ec-b92f-109953f4cf5b from Nanshue
+[23:51:51][DEBUG] : Removing vessel 8159017a-a8f4-45bb-91f9-b6ef0e9b9ef6 from Nanshue
+[23:51:54][DEBUG] : Saving 1 scenario modules from etiene32
+[23:51:55][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:51:56][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:52:06][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:52:24][DEBUG] : Saving 1 scenario modules from etiene32
+[23:52:25][DEBUG] : Saving kerbal Hademy Kerman from Nanshue
+[23:52:25][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:52:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:52:55][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:53:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:53:23][DEBUG] : Removing vessel 3f54d058-9d59-401a-bd4c-15bb5ad4c711 from etiene32
+[23:53:25][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:53:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:53:39][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:53:39][DEBUG] : Nanshue acquired lock update-755c0902-d070-4fcf-b12e-099d2f16c6f3
+[23:53:39][DEBUG] : Saving vessel 755c0902-d070-4fcf-b12e-099d2f16c6f3 from Nanshue
+[23:53:50][DEBUG] : Removing vessel 856b54e0-dd0a-43c8-be86-f20307ab7472 from etiene32
+[23:53:52][DEBUG] : Removing vessel dab0d401-08f8-4c65-8cc6-865985db691f from etiene32
+[23:53:54][DEBUG] : Removing vessel 62e8b98f-11a1-406d-8ee3-daabd6d90861 from etiene32
+[23:53:54][DEBUG] : Saving 1 scenario modules from etiene32
+[23:53:56][DEBUG] : Removing vessel eb9fcc41-40d0-40a7-b64d-1a15329600bf from etiene32
+[23:54:06][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:54:09][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:54:09][DEBUG] : Saving vessel 755c0902-d070-4fcf-b12e-099d2f16c6f3 from Nanshue
+[23:54:23][DEBUG] : Nanshue released lock update-755c0902-d070-4fcf-b12e-099d2f16c6f3
+[23:54:23][DEBUG] : Saving vessel 755c0902-d070-4fcf-b12e-099d2f16c6f3 from Nanshue
+[23:54:23][DEBUG] : Saving vessel 9f04ea19-cd51-4d61-9fa1-af5feb76fab7 from Nanshue
+[23:54:23][DEBUG] : Nanshue released lock update-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:54:29][INFO] : Removing vessel: 5013f187-f310-4c29-91cc-de12cad350a4
+[23:54:29][DEBUG] : Removed debris vessel 5013f187-f310-4c29-91cc-de12cad350a4
+[23:54:29][INFO] : Removing vessel: 755c0902-d070-4fcf-b12e-099d2f16c6f3
+[23:54:29][DEBUG] : Removed debris vessel 755c0902-d070-4fcf-b12e-099d2f16c6f3
+[23:54:29][INFO] : Removing vessel: f21b4e9f-1516-4342-aa19-31ef384baeff
+[23:54:29][DEBUG] : Removed debris vessel f21b4e9f-1516-4342-aa19-31ef384baeff
+[23:54:29][INFO] : Removed 3 debris
+[23:54:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:55:06][DEBUG] : Saving kerbal Hademy Kerman from etiene32
+[23:55:06][DEBUG] : Removing vessel 598014b1-4a3c-4154-bdb9-0d34ce657799 from etiene32
+[23:55:06][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:55:17][DEBUG] : Saving kerbal Jebediah Kerman from Nanshue
+[23:55:17][DEBUG] : Removing vessel 433b792f-8c93-49c8-90c6-cda3072fa688 from Nanshue
+[23:55:18][DEBUG] : Nanshue released lock control-9f04ea19-cd51-4d61-9fa1-af5feb76fab7
+[23:55:28][DEBUG] : Saving 1 scenario modules from etiene32
+[23:55:36][DEBUG] : Saving 1 scenario modules from Nanshue
+[23:55:46][DEBUG] : Nanshue acquired lock control-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:55:46][DEBUG] : Nanshue acquired lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:55:46][DEBUG] : Saving kerbal Valentina Kerman from Nanshue
+[23:55:46][DEBUG] : Saving vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from Nanshue
+[23:55:51][DEBUG] : Saving screenshot from etiene32
+[23:55:58][DEBUG] : Saving kerbal Valentina Kerman from Nanshue
+[23:55:58][DEBUG] : Removing vessel 00aa6a89-9db3-448b-b3ae-e199c4126158 from Nanshue
+[23:55:58][DEBUG] : Nanshue released lock update-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:55:58][DEBUG] : Nanshue released lock control-00aa6a89-9db3-448b-b3ae-e199c4126158
+[23:56:06][DEBUG] : Nanshue is watching screenshots from etiene32
+[23:56:06][DEBUG] : Sending saved screenshot from etiene32 to Nanshue
+[23:56:06][DEBUG] : Optimizing Nanshue (923085 bytes queued)
+[23:56:06][DEBUG] : Optimized 0 bytes in 1,003 ms.
+[23:56:06][DEBUG] : Saving 2 scenario modules from Nanshue
+[23:56:28][DEBUG] : Saving 1 scenario modules from etiene32
+[23:56:58][DEBUG] : Saving 1 scenario modules from etiene32
+[23:57:28][DEBUG] : Saving 2 scenario modules from etiene32

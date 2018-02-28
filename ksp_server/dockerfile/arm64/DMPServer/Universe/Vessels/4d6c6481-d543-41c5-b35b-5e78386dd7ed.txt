@@ -1,0 +1,96 @@
+pid = 4d6c6481d54341c5b35b5e78386dd7ed
+name = Ast. BRM-613
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 702387.49072848074
+lct = 702387.49072848074
+lastUT = -1
+root = 0
+lat = 0.079443981336226183
+lon = -3.2912366504385728
+alt = 13342119726.798082
+hgt = -1
+nrm = 0,1,0
+rot = -0.166598395,0.625519037,-0.444795191,0.618973434
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13722572726.32431
+	ECC = 0.011691747355260637
+	INC = 1.0761840158302796
+	LPE = 133.11312955482907
+	LAN = 46.264605693188514
+	MNA = 0.6428504399941366
+	EPH = 28560170.968801595
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 702387.49072848074
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

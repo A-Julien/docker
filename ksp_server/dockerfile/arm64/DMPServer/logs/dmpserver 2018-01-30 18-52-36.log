@@ -1,0 +1,25 @@
+[18:52:36][DEBUG] : Loading settings...
+[18:52:36][DEBUG] : System.IO compression works: True, test time: 4 ms.
+[18:52:36][DEBUG] : Loading plugins!
+[18:52:36][DEBUG] : Done!
+[18:52:36][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[18:52:36][INFO] : Loading universe... 
+[18:52:36][INFO] : Starting SUBSPACE server on port 6702... 
+[18:52:36][INFO] : Removed 0 debris
+[18:52:37][INFO] : Ready!
+[18:52:41][DEBUG] : Online players is now: 0, connected: 1
+[18:52:41][INFO] : New client connection from [::ffff:127.0.0.1]:50167
+[18:52:41][DEBUG] : Loading admins
+[18:52:41][INFO] : Client Nanshue handshook successfully, version: v0.2.4.5
+[18:52:41][DEBUG] : Online players is now: 1, connected: 1
+[18:52:41][DEBUG] : Nanshue sent connection end message, reason: Failed mod validation
+[18:52:41][DEBUG] : Online players is now: 0, connected: 0
+[18:52:42][DEBUG] : Online players is now: 0, connected: 1
+[18:52:42][INFO] : New client connection from [::ffff:85.171.152.193]:46593
+[18:52:42][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[18:52:42][DEBUG] : Online players is now: 1, connected: 1
+[18:52:43][DEBUG] : etiene32 sent connection end message, reason: Failed mod validation
+[18:52:43][DEBUG] : Online players is now: 0, connected: 0
+[18:53:22][INFO] : Command input: /quit
+[18:53:22][INFO] : Shutting down
+[18:53:22][INFO] : Goodbye!

@@ -1,0 +1,14 @@
+[19:10:11][DEBUG] : Loading settings...
+[19:10:11][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[19:10:11][DEBUG] : Loading plugins!
+[19:10:11][DEBUG] : Done!
+[19:10:11][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[19:10:11][INFO] : Loading universe... 
+[19:10:11][INFO] : Starting SUBSPACE server on port 6702... 
+[19:10:11][INFO] : Error setting up server, Exception: System.Net.Sockets.SocketException (0x80004005): Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   à DarkMultiPlayerServer.ClientHandler.SetupTCPServer()
+[19:10:12][INFO] : Ready!
+[19:10:12][INFO] : Goodbye!

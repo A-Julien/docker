@@ -1,0 +1,96 @@
+pid = 504f0d6a8bd24eaa96aa72703159483e
+name = Ast. OOD-835
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25616631.599779893
+lct = 25616631.599779893
+lastUT = -1
+root = 0
+lat = 0.1260248915449137
+lon = 5.2471639121347637
+alt = 13346071215.398462
+hgt = -1
+nrm = 0,1,0
+rot = -0.292089999,0.541342437,0.249127179,0.748042464
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13731702637.735586
+	ECC = 0.01497808671955593
+	INC = 0.58193645882664724
+	LPE = 113.89335966686697
+	LAN = 304.94688618977699
+	MNA = 0.69407701381033837
+	EPH = 43968906.660767496
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25616631.599779893
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

@@ -1,0 +1,96 @@
+pid = 7ac712fe4e084ad29502e22c827a4db0
+name = Ast. OGX-004
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25977390.814751763
+lct = 25977390.814751763
+lastUT = -1
+root = 0
+lat = 0.27406378974670187
+lon = 93.155562773461156
+alt = 13363287357.696226
+hgt = -1
+nrm = 0,1,0
+rot = 0.798903406,-0.537161708,0.0403946117,0.267542362
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13912073498.090986
+	ECC = 0.021864458634267139
+	INC = 0.73533358016125905
+	LPE = 177.7764911671778
+	LAN = 342.86280054593965
+	MNA = 0.031814848026789785
+	EPH = 45568281.25576885
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25977390.814751763
+	lifetime = Infinity
+	refTime = Infinity
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

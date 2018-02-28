@@ -1,0 +1,10 @@
+[14:55:30][DEBUG] : Loading settings...
+[14:55:30][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[14:55:30][DEBUG] : Loading plugins!
+[14:55:30][DEBUG] : Done!
+[14:55:30][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[14:55:30][INFO] : Loading universe... 
+[14:55:30][INFO] : Starting SUBSPACE server on port 6702... 
+[14:55:30][INFO] : Nuked 0 vessels around the KSC
+[14:55:30][INFO] : Removed 0 debris
+[14:55:30][INFO] : Ready!

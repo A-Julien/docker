@@ -1,0 +1,2 @@
+name = ScenarioCustomWaypoints
+scene = 7, 8

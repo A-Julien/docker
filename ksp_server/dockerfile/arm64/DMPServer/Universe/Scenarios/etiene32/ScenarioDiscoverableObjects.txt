@@ -1,0 +1,10 @@
+name = ScenarioDiscoverableObjects
+scene = 7, 8, 5
+lastSeed = 0
+sizeCurve
+{
+	key = 0 0 1.5 1.5
+	key = 0.3 0.45 0.875 0.875
+	key = 0.7 0.55 0.875 0.875
+	key = 1 1 1.5 1.5
+}

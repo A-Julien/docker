@@ -1,0 +1,96 @@
+pid = 43345bbfe28d4007bac747cdd67f62fa
+name = Ast. VPX-186
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25615334.595652167
+lct = 25615334.595652167
+lastUT = -1
+root = 0
+lat = -0.29680756723427165
+lon = 7.3644330656124053
+alt = 13799113817.77059
+hgt = -1
+nrm = 0,1,0
+rot = 0.62342,-0.194550857,0.509160936,0.560582399
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13860851614.073071
+	ECC = 0.022320776914066295
+	INC = 0.85172431254917236
+	LPE = 331.6048745106952
+	LAN = 273.08369621416091
+	MNA = 0.49506070800067281
+	EPH = 39231523.966022164
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25615334.595652167
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

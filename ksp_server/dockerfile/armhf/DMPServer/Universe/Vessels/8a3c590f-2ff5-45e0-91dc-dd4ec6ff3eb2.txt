@@ -1,0 +1,96 @@
+pid = 8a3c590f2ff545e091dcdd4ec6ff3eb2
+name = Ast. SUF-958
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25615334.595652167
+lct = 25615334.595652167
+lastUT = -1
+root = 0
+lat = -1.2642028574903992
+lon = 65.296285961364873
+alt = 14771746241.828875
+hgt = -1
+nrm = 0,1,0
+rot = 0.619410038,-0.00162794604,-0.671310604,0.407026529
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15341794682.150808
+	ECC = 0.11639574599282475
+	INC = 1.2757590578642335
+	LPE = 175.57869956662105
+	LAN = 269.12743263165601
+	MNA = 0.025108282217785629
+	EPH = 34435753.684202649
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25615334.595652167
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

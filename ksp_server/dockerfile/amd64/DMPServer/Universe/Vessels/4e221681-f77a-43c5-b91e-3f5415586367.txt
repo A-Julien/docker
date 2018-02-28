@@ -1,0 +1,96 @@
+pid = 4e221681f77a43c5b91e3f5415586367
+name = Ast. RYS-990
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 71641.834636926389
+lct = 71641.834636926389
+lastUT = -1
+root = 0
+lat = -0.13674503086708584
+lon = -114.26085378953596
+alt = 16883615730.36635
+hgt = -1
+nrm = 0,1,0
+rot = -0.222554564,0.362518221,0.381181449,0.820823193
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15436217954.740547
+	ECC = 0.11838894044627815
+	INC = 0.50470927589261261
+	LPE = 182.740536566841
+	LAN = 321.16039236437911
+	MNA = -0.052560721177112996
+	EPH = 17388004.213443343
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 71641.834636926389
+	lifetime = Infinity
+	refTime = Infinity
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

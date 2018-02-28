@@ -1,0 +1,53 @@
+[20:19:15][DEBUG] : Loading settings...
+[20:19:15][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[20:19:15][DEBUG] : Loading plugins!
+[20:19:15][DEBUG] : Done!
+[20:19:15][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[20:19:15][INFO] : Loading universe... 
+[20:19:15][INFO] : Starting SUBSPACE server on port 6702... 
+[20:19:15][INFO] : Removed 0 debris
+[20:19:15][INFO] : Ready!
+[20:49:15][INFO] : Removed 0 debris
+[21:19:15][INFO] : Removed 0 debris
+[21:21:12][DEBUG] : Online players is now: 0, connected: 1
+[21:21:12][INFO] : New client connection from [::ffff:81.67.40.192]:46399
+[21:21:12][DEBUG] : Loading admins
+[21:21:12][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[21:21:12][DEBUG] : Online players is now: 1, connected: 1
+[21:21:13][DEBUG] : Sending etiene32 to subspace 3
+[21:21:13][DEBUG] : Sending etiene32 0 craft library entries
+[21:21:13][DEBUG] : Sending etiene32 20 kerbals...
+[21:21:13][DEBUG] : Sending etiene32 27 vessels, cached: 0...
+[21:21:17][DEBUG] : etiene32 acquired lock asteroid-spawning
+[21:21:47][DEBUG] : Saving 12 scenario modules from etiene32
+[21:22:17][DEBUG] : Saving vessel fad69b87-9b5a-44a8-a20a-dd3b11af4223 from etiene32
+[21:25:51][DEBUG] : Saving KerminR1, type: VAB from etiene32
+[21:26:18][DEBUG] : Saving vessel b4d6acff-4677-46c1-9065-c0ffe40b833a from etiene32
+[21:26:23][DEBUG] : etiene32 acquired lock control-aa56210c-3a32-4fea-b087-a05d777e8d15
+[21:26:23][DEBUG] : etiene32 acquired lock update-aa56210c-3a32-4fea-b087-a05d777e8d15
+[21:26:23][DEBUG] : Saving kerbal Hademy Kerman from etiene32
+[21:26:24][DEBUG] : Saving vessel aa56210c-3a32-4fea-b087-a05d777e8d15 from etiene32
+[21:26:33][DEBUG] : Saving 3 scenario modules from etiene32
+[21:26:54][DEBUG] : Saving vessel aa56210c-3a32-4fea-b087-a05d777e8d15 from etiene32
+[21:27:03][DEBUG] : Saving kerbal Hademy Kerman from etiene32
+[21:27:04][DEBUG] : Relaying FLYING vessel aa56210c-3a32-4fea-b087-a05d777e8d15 from etiene32
+[21:27:04][DEBUG] : Saving 2 scenario modules from etiene32
+[21:27:18][DEBUG] : Saving vessel 65a4207d-6d79-4949-bbcf-bafca4dacec2 from etiene32
+[21:27:34][DEBUG] : Relaying FLYING vessel aa56210c-3a32-4fea-b087-a05d777e8d15 from etiene32
+[21:27:34][DEBUG] : Saving 2 scenario modules from etiene32
+[21:27:43][DEBUG] : Relaying FLYING vessel aa56210c-3a32-4fea-b087-a05d777e8d15 from etiene32
+[21:27:43][DEBUG] : etiene32 acquired lock update-e406fcd2-c1e7-4727-8adc-162ef8e96c7c
+[21:27:43][DEBUG] : Relaying FLYING vessel e406fcd2-c1e7-4727-8adc-162ef8e96c7c from etiene32
+[21:28:04][DEBUG] : Saving 2 scenario modules from etiene32
+[21:28:24][INFO] : Disconnecting client etiene32, endpoint [::ffff:81.67.40.192]:46399, Connection timed out
+[21:29:35][DEBUG] : Online players is now: 1, connected: 2
+[21:29:35][INFO] : Client Nanshue handshook successfully, version: v0.2.4.5
+[21:29:51][INFO] : New client connection from [::ffff:127.0.0.1]:63978
+[21:29:51][DEBUG] : Online players is now: 2, connected: 2
+[21:29:51][DEBUG] : Online players is now: 1, connected: 1
+[21:29:51][INFO] : Client Nanshue disconnected in Send Network Message, endpoint [::ffff:127.0.0.1]:63978, error: Impossible d'écrire les données sur la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant. (Une connexion existante a dû être fermée par l’hôte distant)
+[21:29:51][DEBUG] : Online players is now: 0, connected: 0
+[21:29:51][DEBUG] : Error closing client connection: Cette opération n'est pas autorisée sur des sockets non connectés.
+[21:29:53][DEBUG] : Terminal may be not attached or broken, Exiting out of command handler
+[21:29:53][INFO] : Shutting down - Caught Ctrl+C
+[21:29:53][INFO] : Goodbye!

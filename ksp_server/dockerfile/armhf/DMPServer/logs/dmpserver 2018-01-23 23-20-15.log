@@ -1,0 +1,39 @@
+[23:20:15][DEBUG] : Loading settings...
+[23:20:15][DEBUG] : System.IO compression works: True, test time: 4 ms.
+[23:20:15][DEBUG] : Loading plugins!
+[23:20:15][DEBUG] : Done!
+[23:20:15][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[23:20:15][INFO] : Loading universe... 
+[23:20:15][INFO] : Starting SUBSPACE server on port 6702... 
+[23:20:15][INFO] : Removing vessel: 0869b9f9-c477-4459-8ff2-e85ace71c186
+[23:20:15][DEBUG] : Removed debris vessel 0869b9f9-c477-4459-8ff2-e85ace71c186
+[23:20:15][INFO] : Removing vessel: 2a5c68e0-970d-4971-8f7c-cf5b88c9c2d1
+[23:20:15][DEBUG] : Removed debris vessel 2a5c68e0-970d-4971-8f7c-cf5b88c9c2d1
+[23:20:15][INFO] : Removing vessel: 3d859c91-6b3f-4aaf-ac46-cdd5217a9508
+[23:20:15][DEBUG] : Removed debris vessel 3d859c91-6b3f-4aaf-ac46-cdd5217a9508
+[23:20:15][INFO] : Removing vessel: 7c23a239-e20a-4508-99c7-80de1706cf2f
+[23:20:15][DEBUG] : Removed debris vessel 7c23a239-e20a-4508-99c7-80de1706cf2f
+[23:20:15][INFO] : Removing vessel: a51eee94-fb95-4c99-bcc3-27c1acabdedb
+[23:20:15][DEBUG] : Removed debris vessel a51eee94-fb95-4c99-bcc3-27c1acabdedb
+[23:20:15][INFO] : Removed 5 debris
+[23:20:16][INFO] : Ready!
+[23:20:20][DEBUG] : Online players is now: 0, connected: 1
+[23:20:20][INFO] : New client connection from [::ffff:81.67.40.192]:38703
+[23:20:21][INFO] : Client Unknown disconnected in ReceiveCallback, endpoint [::ffff:81.67.40.192]:38703, error: Impossible de lire les données de la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant. (Une connexion existante a dû être fermée par l’hôte distant)
+[23:20:21][DEBUG] : Online players is now: 0, connected: 0
+[23:20:21][DEBUG] : Error closing client connection: Cette opération n'est pas autorisée sur des sockets non connectés.
+[23:20:22][DEBUG] : Online players is now: 0, connected: 1
+[23:20:22][INFO] : New client connection from [::ffff:81.67.40.192]:40937
+[23:20:27][INFO] : Client Unknown disconnected in ReceiveCallback, endpoint [::ffff:81.67.40.192]:40937, error: Impossible de lire les données de la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte. (Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte)
+[23:20:27][DEBUG] : Online players is now: 0, connected: 0
+[23:20:27][DEBUG] : Error closing client connection: Cette opération n'est pas autorisée sur des sockets non connectés.
+[23:20:52][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[23:21:07][DEBUG] : Loading admins
+[23:20:51][DEBUG] : Online players is now: 0, connected: 1
+[23:21:07][INFO] : New client connection from [::ffff:81.67.40.192]:41817
+[23:21:07][DEBUG] : Online players is now: 1, connected: 1
+[23:21:08][DEBUG] : Terminal may be not attached or broken, Exiting out of command handler
+[23:21:08][INFO] : Shutting down - Caught Ctrl+C
+[23:21:08][INFO] : Disconnecting client etiene32, sent CONNECTION_END (Server is shutting down - Caught Ctrl+C) to endpoint [::ffff:81.67.40.192]:41817
+[23:21:08][DEBUG] : Online players is now: 0, connected: 0
+[23:21:08][INFO] : Goodbye!

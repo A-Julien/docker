@@ -1,0 +1,126 @@
+name = ProgressTracking
+scene = 7, 8, 5
+Progress
+{
+	FirstLaunch
+	{
+		completed = 0
+	}
+	FirstCrewToSurvive
+	{
+		completed = 0
+		crew
+		{
+			crews = 
+		}
+	}
+	RecordsAltitude
+	{
+		completed = 0
+		record = 0
+	}
+	RecordsDepth
+	{
+		reached = 0
+		record = 0
+	}
+	RecordsSpeed
+	{
+		completed = 26055141.201610032
+		record = 2500
+	}
+	RecordsDistance
+	{
+		completed = 77479.438974535471
+		record = 100000
+	}
+	ReachedSpace
+	{
+		completed = 77760.901314883129
+		vessel
+		{
+			name = HUEORBITAL 2
+			flag = Squad/Flags/default
+		}
+		crew
+		{
+			crews = Jebediah Kerman
+		}
+	}
+	Sun
+	{
+		reached = 25615253.149124593
+		Flyby
+		{
+			completedUnmanned = 25615253.149124593
+		}
+	}
+	Kerbin
+	{
+		reached = 72507.618519698663
+		Orbit
+		{
+			completed = 85851.373462809061
+			vessel
+			{
+				name = KerminR4
+				flag = Squad/Flags/default
+			}
+			crew
+			{
+				crews = Valentina Kerman
+			}
+		}
+		Escape
+		{
+			completedUnmanned = 25615253.149124593
+		}
+		Landing
+		{
+			completed = 72507.618519698663
+			vessel
+			{
+				name = HUEORBITAL 1
+				flag = Squad/Flags/default
+			}
+			crew
+			{
+				crews = Hademy Kerman
+			}
+		}
+		Splashdown
+		{
+			completedManned = 85660.247287042512
+		}
+		Science
+		{
+			completedManned = 72512.810292160488
+			vessel
+			{
+				name = HUEORBITAL 1
+				flag = Squad/Flags/default
+			}
+			crew
+			{
+				crews = Hademy Kerman
+			}
+		}
+		Rendezvous
+		{
+			completedUnmanned = 727105.07825529936
+		}
+		Docking
+		{
+			completedUnmanned = 727655.53318794875
+		}
+		StationConstruction
+		{
+			completedUnmanned = 727655.53318794875
+			station
+			{
+				name = Kerboum2
+				flag = Squad/Flags/default
+			}
+		}
+	}
+}

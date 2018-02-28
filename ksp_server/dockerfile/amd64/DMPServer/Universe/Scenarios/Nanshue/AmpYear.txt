@@ -1,0 +1,100 @@
+name = AmpYear
+scene = 5, 7, 6
+AYGameSettings
+{
+	Enabled = True
+	VesselInfo
+	{
+		vesselName = liquidEngine3 (Sat1-700)
+		vesselType = Probe
+		numCrew = 0
+		numOccupiedParts = 0
+		SASToggle = False
+		SASDrain = 0
+		RCSToggle = False
+		RCSDrain = 0
+		CLIMATEToggle = False
+		CLIMATEDrain = 0
+		MUSICToggle = False
+		MUSICDrain = 0
+		MASSAGEToggle = False
+		MASSAGEDrain = 0
+		SUBSYSTEMFlag = True
+		RESERVEFlag = True
+		LUXURYFlag = False
+		managerEnabled = True
+		ShowCrew = False
+		ShowParts = False
+		hibernating = False
+		EmgcyShutActive = False
+		AutoPilotDisabled = False
+		AutoPilotDisTime = 0
+		AutoPilotDisCounter = 0
+		timeLastElectricity = 26287329.769451536
+		lastUpdate = 26287329.769451536
+		EmgcyShutOverride = False
+		EmgcyShutOverrideStarted = False
+		Emergencypowerdownactivated = False
+		Emergencypowerdownreset = False
+		Emergencypowerdownprevactivated = False
+		Emergencypowerdownresetprevactivated = False
+		ESPPriorityHighProcessed = False
+		ESPPriorityMediumProcessed = False
+		ESPPriorityLowProcessed = False
+		ESPPriorityHighResetProcessed = False
+		ESPPriorityMediumResetProcessed = False
+		ESPPriorityLowResetProcessed = False
+		EspPriority = 1
+		ReenableRcs = False
+		ReenableSas = False
+		IsolateReservePower = False
+		Guid = 5913105d-2ec7-4b69-b825-71330a805d30
+	}
+	VesselInfo
+	{
+		vesselName = liquidEngine3 (Sat3)
+		vesselType = Relay
+		numCrew = 0
+		numOccupiedParts = 0
+		SASToggle = False
+		SASDrain = 0
+		RCSToggle = False
+		RCSDrain = 0
+		CLIMATEToggle = False
+		CLIMATEDrain = 0
+		MUSICToggle = False
+		MUSICDrain = 0
+		MASSAGEToggle = False
+		MASSAGEDrain = 0
+		SUBSYSTEMFlag = True
+		RESERVEFlag = True
+		LUXURYFlag = False
+		managerEnabled = True
+		ShowCrew = False
+		ShowParts = False
+		hibernating = False
+		EmgcyShutActive = False
+		AutoPilotDisabled = False
+		AutoPilotDisTime = 0
+		AutoPilotDisCounter = 0
+		timeLastElectricity = 26288087.554435477
+		lastUpdate = 26288087.554435477
+		EmgcyShutOverride = False
+		EmgcyShutOverrideStarted = False
+		Emergencypowerdownactivated = False
+		Emergencypowerdownreset = False
+		Emergencypowerdownprevactivated = False
+		Emergencypowerdownresetprevactivated = False
+		ESPPriorityHighProcessed = False
+		ESPPriorityMediumProcessed = False
+		ESPPriorityLowProcessed = False
+		ESPPriorityHighResetProcessed = False
+		ESPPriorityMediumResetProcessed = False
+		ESPPriorityLowResetProcessed = False
+		EspPriority = 3
+		ReenableRcs = False
+		ReenableSas = False
+		IsolateReservePower = False
+		Guid = 3c924e74-78ed-4e34-9d1b-9a077e7b04bc
+	}
+}

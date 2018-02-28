@@ -1,0 +1,50 @@
+[19:00:23][DEBUG] : Loading settings...
+[19:00:23][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[19:00:23][DEBUG] : Loading plugins!
+[19:00:23][DEBUG] : Done!
+[19:00:23][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[19:00:23][INFO] : Loading universe... 
+[19:00:23][INFO] : Starting SUBSPACE server on port 6702... 
+[19:00:23][INFO] : Removed 0 debris
+[19:00:24][INFO] : Ready!
+[19:00:28][DEBUG] : Online players is now: 0, connected: 1
+[19:00:28][INFO] : New client connection from [::ffff:85.171.152.193]:39323
+[19:00:29][DEBUG] : Loading admins
+[19:00:29][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[19:00:29][DEBUG] : Online players is now: 1, connected: 1
+[19:00:29][DEBUG] : Sending etiene32 to subspace 47
+[19:00:29][DEBUG] : Sending etiene32 5 craft library entries
+[19:00:29][DEBUG] : Sending etiene32 20 kerbals...
+[19:00:30][DEBUG] : Sending etiene32 35 vessels, cached: 0...
+[19:00:32][DEBUG] : Online players is now: 1, connected: 2
+[19:00:32][INFO] : New client connection from [::ffff:127.0.0.1]:50176
+[19:00:32][INFO] : Client Nanshue handshook successfully, version: v0.2.4.5
+[19:00:32][DEBUG] : Online players is now: 2, connected: 2
+[19:00:32][DEBUG] : Sending Nanshue to subspace 47
+[19:00:32][DEBUG] : Sending Nanshue 5 craft library entries
+[19:00:32][DEBUG] : Sending Nanshue 20 kerbals...
+[19:00:32][DEBUG] : Sending Nanshue 0 vessels, cached: 35...
+[19:00:32][DEBUG] : etiene32 acquired lock asteroid-spawning
+[19:01:02][DEBUG] : Saving 12 scenario modules from etiene32
+[19:01:03][DEBUG] : Saving 12 scenario modules from Nanshue
+[19:01:32][DEBUG] : Saving 1 scenario modules from etiene32
+[19:02:03][DEBUG] : Saving 1 scenario modules from Nanshue
+[19:02:32][DEBUG] : Saving 1 scenario modules from etiene32
+[19:03:03][DEBUG] : Saving 1 scenario modules from Nanshue
+[19:03:33][DEBUG] : Saving 1 scenario modules from etiene32
+[19:04:03][DEBUG] : Saving 1 scenario modules from Nanshue
+[19:04:33][DEBUG] : Saving 1 scenario modules from etiene32
+[19:05:03][DEBUG] : Saving 1 scenario modules from Nanshue
+[19:05:33][DEBUG] : Saving 1 scenario modules from etiene32
+[19:06:03][DEBUG] : Saving 1 scenario modules from Nanshue
+[19:06:26][CHAT] : Nanshue -> #Global: b,cb,hnv
+[19:06:27][CHAT] : Nanshue -> #Global: kjbjbljb
+[19:06:28][CHAT] : Nanshue -> #Global: kjbkjbljb
+[19:06:29][CHAT] : Nanshue -> #Global: kjkjnkljn
+[19:08:15][DEBUG] : Nanshue sent connection end message, reason: Quit to main menu
+[19:08:15][DEBUG] : Online players is now: 1, connected: 1
+[19:08:16][DEBUG] : etiene32 sent connection end message, reason: Quit to main menu
+[19:08:16][DEBUG] : Online players is now: 0, connected: 0
+[19:08:43][INFO] : Command input: /quit
+[19:08:43][INFO] : Shutting down
+[19:08:43][INFO] : Goodbye!

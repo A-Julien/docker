@@ -1,0 +1,44 @@
+[20:21:09][DEBUG] : Loading settings...
+[20:21:09][DEBUG] : System.IO compression works: True, test time: 4 ms.
+[20:21:09][DEBUG] : Loading plugins!
+[20:21:09][DEBUG] : Done!
+[20:21:09][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[20:21:09][INFO] : Loading universe... 
+[20:21:09][INFO] : Starting SUBSPACE server on port 6702... 
+[20:21:09][INFO] : Removing vessel: 3ab16f50-5658-4cb6-821a-b21d47258642
+[20:21:09][DEBUG] : Removed debris vessel 3ab16f50-5658-4cb6-821a-b21d47258642
+[20:21:09][INFO] : Removing vessel: 471b45a2-e073-428f-8500-ceb931bfea8d
+[20:21:09][DEBUG] : Removed debris vessel 471b45a2-e073-428f-8500-ceb931bfea8d
+[20:21:09][INFO] : Removing vessel: 63835439-72fd-499b-89ae-6cf694c03358
+[20:21:09][DEBUG] : Removed debris vessel 63835439-72fd-499b-89ae-6cf694c03358
+[20:21:09][INFO] : Removing vessel: 9a00cdd7-9dbf-4ea7-8b1d-4c7da36c50d4
+[20:21:09][DEBUG] : Removed debris vessel 9a00cdd7-9dbf-4ea7-8b1d-4c7da36c50d4
+[20:21:09][INFO] : Removing vessel: ac28577a-7406-404d-9816-667de6cd3539
+[20:21:09][DEBUG] : Removed debris vessel ac28577a-7406-404d-9816-667de6cd3539
+[20:21:09][INFO] : Removing vessel: d43f40e7-6687-421a-a476-beba64282c89
+[20:21:09][DEBUG] : Removed debris vessel d43f40e7-6687-421a-a476-beba64282c89
+[20:21:09][INFO] : Removing vessel: efbb1b65-926c-4177-b892-35259ba5cb01
+[20:21:09][DEBUG] : Removed debris vessel efbb1b65-926c-4177-b892-35259ba5cb01
+[20:21:09][INFO] : Removed 7 debris
+[20:21:10][INFO] : Ready!
+[20:21:19][DEBUG] : Online players is now: 0, connected: 1
+[20:21:19][INFO] : New client connection from [::ffff:81.67.222.35]:34915
+[20:21:19][DEBUG] : Loading admins
+[20:21:19][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[20:21:19][DEBUG] : Online players is now: 1, connected: 1
+[20:21:20][DEBUG] : Sending etiene32 to subspace 133
+[20:21:20][DEBUG] : Sending etiene32 7 craft library entries
+[20:21:20][DEBUG] : Sending etiene32 20 kerbals...
+[20:21:21][DEBUG] : Sending etiene32 0 vessels, cached: 78...
+[20:21:27][DEBUG] : etiene32 acquired lock asteroid-spawning
+[20:21:44][DEBUG] : Create subspace
+[20:21:44][DEBUG] : Sending etiene32 to subspace 134
+[20:21:57][DEBUG] : Saving 11 scenario modules from etiene32
+[20:22:10][DEBUG] : Removing vessel 8aa11aac-11dc-488a-8ac2-3219ba178d6a from etiene32
+[20:22:12][DEBUG] : Removing vessel 74d122b6-f321-44a7-837b-a7e4a09f413f from etiene32
+[20:22:13][DEBUG] : Removing vessel 0cb67f0c-c949-4cdf-934a-377e7ab2c073 from etiene32
+[20:22:40][INFO] : Command input: /quit
+[20:22:40][INFO] : Shutting down
+[20:22:40][INFO] : Disconnecting client etiene32, sent CONNECTION_END (Server is shutting down) to endpoint [::ffff:81.67.222.35]:34915
+[20:22:40][DEBUG] : Online players is now: 0, connected: 0
+[20:22:41][INFO] : Goodbye!

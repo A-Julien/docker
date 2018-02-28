@@ -1,0 +1,25 @@
+name = Sansey Kerman
+gender = Female
+type = Crew
+trait = Scientist
+brave = 0.71732229
+dumb = 0.302894413
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = -1
+extraXP = 0
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+}

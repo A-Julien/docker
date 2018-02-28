@@ -1,0 +1,96 @@
+pid = cb5b90ac05354036acf2e37aa032e0af
+name = Ast. EIC-766
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 702387.49072848074
+lct = 702387.49072848074
+lastUT = -1
+root = 0
+lat = 0.14300819835737383
+lon = -104.10903274869312
+alt = 13341139954.967747
+hgt = -1
+nrm = 0,1,0
+rot = -0.653081954,0.497330278,0.570473492,0.0265810769
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16860936109.248857
+	ECC = 0.19506385432746007
+	INC = 0.51524602120177887
+	LPE = 154.33676447539409
+	LAN = 317.32769242106355
+	MNA = 0.11855142289773279
+	EPH = 26129280.26399149
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 702387.49072848074
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

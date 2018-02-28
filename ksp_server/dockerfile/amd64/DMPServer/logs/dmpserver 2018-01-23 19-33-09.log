@@ -1,0 +1,32 @@
+[19:33:09][DEBUG] : Loading settings...
+[19:33:09][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[19:33:09][DEBUG] : Loading plugins!
+[19:33:09][DEBUG] : Done!
+[19:33:09][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[19:33:09][INFO] : Loading universe... 
+[19:33:09][INFO] : Starting SUBSPACE server on port 6702... 
+[19:33:09][INFO] : Removed 0 debris
+[19:33:09][INFO] : Ready!
+[19:34:12][DEBUG] : Online players is now: 0, connected: 1
+[19:34:12][INFO] : New client connection from [::ffff:81.67.40.192]:44293
+[19:34:12][DEBUG] : Loading admins
+[19:34:12][INFO] : Client etiene32 handshook successfully, version: v0.2.4.5
+[19:34:12][DEBUG] : Online players is now: 1, connected: 1
+[19:34:13][DEBUG] : etiene32 sent connection end message, reason: Failed mod validation
+[19:34:13][DEBUG] : Online players is now: 0, connected: 0
+[19:34:18][DEBUG] : Online players is now: 0, connected: 1
+[19:34:18][INFO] : New client connection from [::ffff:127.0.0.1]:63556
+[19:34:18][INFO] : Client Nanshue handshook successfully, version: v0.2.4.5
+[19:34:18][DEBUG] : Online players is now: 1, connected: 1
+[19:34:18][DEBUG] : Sending Nanshue to subspace 0
+[19:34:18][DEBUG] : Sending Nanshue 0 craft library entries
+[19:34:18][DEBUG] : Sending Nanshue 20 kerbals...
+[19:34:18][DEBUG] : Sending Nanshue 0 vessels, cached: 2...
+[19:34:28][DEBUG] : Nanshue acquired lock asteroid-spawning
+[19:34:38][DEBUG] : Nanshue sent connection end message, reason: Quit to main menu
+[19:34:43][INFO] : Client Nanshue disconnected in Send Network Message, endpoint [::ffff:127.0.0.1]:63556, error: Impossible d'écrire les données sur la connexion de transport : Une connexion existante a dû être fermée par l’hôte distant. (Une connexion existante a dû être fermée par l’hôte distant)
+[19:34:46][DEBUG] : Online players is now: 0, connected: 0
+[19:34:46][DEBUG] : Error closing client connection: Cette opération n'est pas autorisée sur des sockets non connectés.
+[19:34:48][DEBUG] : Terminal may be not attached or broken, Exiting out of command handler
+[19:34:48][INFO] : Shutting down - Caught Ctrl+C
+[19:34:49][INFO] : Goodbye!

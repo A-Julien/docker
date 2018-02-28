@@ -1,0 +1,96 @@
+pid = 416b7d290dc544499305850f53a955dd
+name = Ast. FGS-560
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25615334.595652167
+lct = 25615334.595652167
+lastUT = -1
+root = 0
+lat = 1.0089617021295856
+lon = 87.882335721698894
+alt = 14181418843.779526
+hgt = -1
+nrm = 0,1,0
+rot = -0.54927057,0.502259731,0.531707168,0.404134154
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15774700019.307276
+	ECC = 0.14068431356574501
+	INC = 1.0669146671322767
+	LPE = 11.144234554389529
+	LAN = 122.96780193085965
+	MNA = -0.15416635227956252
+	EPH = 35339791.948242567
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25615334.595652167
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

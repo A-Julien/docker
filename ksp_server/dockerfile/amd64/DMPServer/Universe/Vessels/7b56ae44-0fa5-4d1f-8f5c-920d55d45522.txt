@@ -1,0 +1,96 @@
+pid = 7b56ae440fa54d1f8f5c920d55d45522
+name = Ast. RYT-284
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 702387.49072848074
+lct = 702387.49072848074
+lastUT = -1
+root = 0
+lat = -0.24829434281053397
+lon = 51.458598808508214
+alt = 13252038344.354494
+hgt = -1
+nrm = 0,1,0
+rot = 0.228437141,0.0707895681,0.822763383,0.515621662
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15319353617.894518
+	ECC = 0.11869505045467603
+	INC = 0.71787124299937499
+	LPE = 347.37054969723454
+	LAN = 297.01580622806273
+	MNA = 0.14257917278824322
+	EPH = 12137138.268662021
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 702387.49072848074
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

@@ -1,0 +1,96 @@
+pid = 2774ab9cc70f4456bc8d24e8e11c0e3d
+name = Ast. PYP-540
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 702387.49072848074
+lct = 702387.49072848074
+lastUT = -1
+root = 0
+lat = 0.27247943375294159
+lon = -0.96588952684968188
+alt = 14642279215.273905
+hgt = -1
+nrm = 0,1,0
+rot = -0.424183041,0.72418648,-0.136125937,0.526395679
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14210978578.576555
+	ECC = 0.052082968076106476
+	INC = 0.38902952783967576
+	LPE = 244.01838998595409
+	LAN = 179.89770421201592
+	MNA = -0.61130959082554626
+	EPH = 5252067.3714529928
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 702387.49072848074
+	lifetime = Infinity
+	refTime = Infinity
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

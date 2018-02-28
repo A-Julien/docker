@@ -1,0 +1,35 @@
+name = Anlong Kerman
+gender = Female
+type = Crew
+trait = Scientist
+brave = 0.137274444
+dumb = 0.943608463
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = 1
+extraXP = 0
+CAREER_LOG
+{
+	flight = 4
+	0 = Recover
+	1 = Recover
+	1 = Land,Kerbin
+	1 = Flight,Kerbin
+	2 = Recover
+	3 = Flight,Kerbin
+	3 = Suborbit,Kerbin
+	3 = Orbit,Kerbin
+	3 = Land,Kerbin
+	3 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 4
+}

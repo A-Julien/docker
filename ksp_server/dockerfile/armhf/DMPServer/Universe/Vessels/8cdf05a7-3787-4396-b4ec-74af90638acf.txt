@@ -1,0 +1,96 @@
+pid = 8cdf05a737874396b4ec74af90638acf
+name = Ast. HMM-227
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25616631.599779893
+lct = 25616631.599779893
+lastUT = -1
+root = 0
+lat = 0.59618629258829448
+lon = 47.756514732273864
+alt = 14797514785.717236
+hgt = -1
+nrm = 0,1,0
+rot = -0.031944111,-0.997599602,0.0409369841,0.0458141379
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14847505329.92812
+	ECC = 0.087819999666965229
+	INC = 0.69713064914625933
+	LPE = 163.05855144382281
+	LAN = 96.168905277632177
+	MNA = 0.25567130634227281
+	EPH = 39294766.299844876
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25616631.599779893
+	lifetime = Infinity
+	refTime = Infinity
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

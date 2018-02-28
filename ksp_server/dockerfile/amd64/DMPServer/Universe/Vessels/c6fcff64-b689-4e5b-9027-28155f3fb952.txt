@@ -1,0 +1,492 @@
+pid = c6fcff64b6894e5b902728155f3fb952
+name = Ast. WWA-791
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 626067.64264211152
+lct = 72451.303964026432
+lastUT = 698518.94660613791
+root = 0
+lat = 0.66965698510170202
+lon = 49.181216839275351
+alt = 14304103542.941629
+hgt = -1
+nrm = 0.832643747,0.515344262,-0.202792168
+rot = -0.619922459,-0.512339473,-0.384589225,0.453095585
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+cPch = 0.4839999
+cHdg = 0.952
+cMod = 0
+ORBIT
+{
+	SMA = 14175026588.488346
+	ECC = 0.040656419684165994
+	INC = 0.77580857904243494
+	LPE = 345.95506134188747
+	LAN = 150.95354393848311
+	MNA = 2.2858080448883928
+	EPH = 698518.94660613791
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = -1
+	sidx = 0
+	attm = 0
+	srfN = , -1
+	mass = 41.6397781
+	shielded = False
+	temp = 209.67074010915087
+	tempExt = 209.67074010286584
+	tempExtUnexp = 209.67074010915087
+	expt = 0.100000001
+	state = 1
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = PotatoRoid (Ast. WWA-791)
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAsteroid
+		isEnabled = True
+		seed = 3.816028E+07
+		AsteroidName = Ast. WWA-791
+		prefabBaseURL = Procedural/PA_C
+		currentState = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidInfo
+		isEnabled = True
+		massThreshold = 4.5803755950927734
+		currentMass = 41.639778137207031
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.114963502
+		displayAbundance = 0.102317512
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.104014598
+		displayAbundance = 0.0925729871
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.135036498
+		displayAbundance = 0.120182484
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.0948905125
+		displayAbundance = 0.0844525546
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.104014598
+		displayAbundance = 0.0925729871
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.093065694
+		displayAbundance = 0.0828284696
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.00999999978
+		displayAbundance = 0.00889999978
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0
+		displayAbundance = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0
+		displayAbundance = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.00999999978
+		displayAbundance = 0.00889999978
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.105839416
+		displayAbundance = 0.0941970795
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0
+		displayAbundance = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.0218978096
+		displayAbundance = 0.0194890499
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.0364963487
+		displayAbundance = 0.0324817486
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.0164233577
+		displayAbundance = 0.0146167884
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidResource
+		isEnabled = True
+		abundance = 0.155109495
+		displayAbundance = 0.138047442
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = AYPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		VesselProdPartsList
+		{
+		}
+		VesselConsPartsList
+		{
+			AYPwrPartList
+			{
+				PrtName = AmpYear SubSystems
+				PrtTitle = AmpYear SubSystems
+				PrtModuleName = RCS
+				PrtSubsystem = True
+				PrtPower = 0
+				PrtPowerF = 0
+				PrtActive = False
+				PrtSolarDependant = False
+				PrtEditorInclude = True
+				PrtUserEditorInclude = True
+				PrtValidprtEmergShutDn = True
+				PrtEmergShutDnInclude = True
+				PrtPreEmergShutDnStateActive = False
+				PrtEmergShutDnPriority = 2
+				ConsPartKey = 0,RCS
+			}
+			AYPwrPartList
+			{
+				PrtName = AmpYear SubSystems
+				PrtTitle = AmpYear SubSystems
+				PrtModuleName = SAS
+				PrtSubsystem = True
+				PrtPower = 0
+				PrtPowerF = 0
+				PrtActive = False
+				PrtSolarDependant = False
+				PrtEditorInclude = True
+				PrtUserEditorInclude = True
+				PrtValidprtEmergShutDn = True
+				PrtEmergShutDnInclude = True
+				PrtPreEmergShutDnStateActive = False
+				PrtEmergShutDnPriority = 2
+				ConsPartKey = 0,SAS
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+ACTIONGROUPS
+{
+	Stage = False, 0
+	Gear = False, 0
+	Light = False, 0
+	RCS = False, 0
+	SAS = False, 0
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = 17
+	lastObservedTime = 25949345.893176015
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+	pitch = 0
+	yaw = 0
+	roll = 0
+	trimPitch = 0
+	trimYaw = 0
+	trimRoll = 0
+	mainThrottle = 0
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+}

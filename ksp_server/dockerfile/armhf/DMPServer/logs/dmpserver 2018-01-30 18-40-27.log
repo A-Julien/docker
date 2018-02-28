@@ -1,0 +1,12 @@
+[18:40:27][DEBUG] : Loading settings...
+[18:40:27][DEBUG] : System.IO compression works: True, test time: 3 ms.
+[18:40:27][DEBUG] : Loading plugins!
+[18:40:27][DEBUG] : Done!
+[18:40:27][INFO] : Starting DMPServer v0.2.4.5, protocol 45
+[18:40:27][INFO] : Loading universe... 
+[18:40:27][INFO] : Starting SUBSPACE server on port 6702... 
+[18:40:27][INFO] : Removed 0 debris
+[18:40:28][INFO] : Ready!
+[18:46:55][INFO] : Command input: /quit
+[18:46:55][INFO] : Shutting down
+[18:46:55][INFO] : Goodbye!

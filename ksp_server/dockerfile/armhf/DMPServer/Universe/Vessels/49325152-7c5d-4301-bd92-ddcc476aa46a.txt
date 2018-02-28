@@ -1,0 +1,96 @@
+pid = 493251527c5d4301bd92ddcc476aa46a
+name = Ast. HTD-382
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 705247.84261406399
+lct = 705247.84261406399
+lastUT = -1
+root = 0
+lat = -0.27704720028114815
+lon = 87.535302182516119
+alt = 13324279574.998173
+hgt = -1
+nrm = 0,1,0
+rot = -0.233085766,0.355741203,-0.731383741,0.53310138
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14497642893.626711
+	ECC = 0.065276865888456853
+	INC = 0.36715072474654536
+	LPE = 327.58660861572122
+	LAN = 4.2307538330487091
+	MNA = 0.2589415576414803
+	EPH = 31921175.347695917
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 705247.84261406399
+	lifetime = Infinity
+	refTime = Infinity
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

@@ -1,0 +1,96 @@
+pid = 803cd5ead1b24d11873e394ca5f2e8a3
+name = Ast. WSA-012
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25616631.599779893
+lct = 25616631.599779893
+lastUT = -1
+root = 0
+lat = -0.12660669026284593
+lon = -7.1935997312103339
+alt = 13306012320.71188
+hgt = -1
+nrm = 0,1,0
+rot = -0.903189778,0.290513843,0.284502178,0.137507543
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13553782499.960539
+	ECC = 0.0033691292801745951
+	INC = 0.15257335988921233
+	LPE = 128.26592453271033
+	LAN = 223.92037842927937
+	MNA = 1.8664160284705342
+	EPH = 34760551.538502857
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25616631.599779893
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

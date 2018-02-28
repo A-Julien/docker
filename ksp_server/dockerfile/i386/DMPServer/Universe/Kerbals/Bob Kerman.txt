@@ -1,0 +1,30 @@
+name = Bob Kerman
+gender = Male
+type = Crew
+trait = Scientist
+brave = 0.300000012
+dumb = 0.100000001
+badS = False
+veteran = True
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = 2
+extraXP = 0
+CAREER_LOG
+{
+	flight = 1
+	0 = Flight,Kerbin
+	0 = Suborbit,Kerbin
+	0 = Orbit,Kerbin
+	0 = Land,Kerbin
+	0 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 1
+}

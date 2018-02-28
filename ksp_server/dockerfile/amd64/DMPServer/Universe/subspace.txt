@@ -1,0 +1,7 @@
+#Incorrectly editing this file will cause weirdness. If there is any errors, the universe time will be reset.
+#This file can only be edited if the server is stopped.
+#Each variable is on a new line. They are subspaceID, server clock (from DateTime.UtcNow.Ticks), universe time, and subspace speed.
+232
+636538689078006079
+26288054,4544362
+0,9891871

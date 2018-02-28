@@ -1,0 +1,96 @@
+pid = a770c2681fc547b2950abd6295056c81
+name = Ast. HDP-417
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 85712.025944092136
+lct = 85712.025944092136
+lastUT = -1
+root = 0
+lat = 0.50599179332220801
+lon = 138.64938420387097
+alt = 17376110263.464909
+hgt = -1
+nrm = 0,1,0
+rot = 0.638490558,0.476505548,-0.0641325265,0.600965381
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15736131195.590704
+	ECC = 0.14027238700289291
+	INC = 2.1101187189997539
+	LPE = 167.22546810820819
+	LAN = 196.20777750967153
+	MNA = 0.16108541407809837
+	EPH = 5006065.406246596
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 0
+	mid = 0
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 85712.025944092136
+	lifetime = Infinity
+	refTime = Infinity
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}
