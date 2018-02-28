@@ -72,7 +72,6 @@ def help(bot, update):
     update.message.reply_text('Help!')
 
 def toMqtt(bot, update):
-    global start_bot
     """Send a message when the command /start is issued."""
     logger.info(update.message.text)
     publish_data(update.message.text.replace('/tomqtt ', ''))

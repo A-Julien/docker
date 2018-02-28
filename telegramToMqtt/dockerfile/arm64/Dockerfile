@@ -9,7 +9,7 @@
 FROM multiarch/debian-debootstrap:arm64-jessie
     LABEL maintainer = "julien.alaimo@gmail.com"
 RUN apt-get update --fix-missing && \
-        apt-get -y dist-upgrade
+        apt-get -y upgrade
 
 ENV	APPDIR="/telegram"
 

@@ -46,7 +46,7 @@ EOI
 print_update(){
 	cat >> $1 <<-'EOI'
 	RUN apt-get update --fix-missing && \
-        apt-get -y dist-upgrade
+        apt-get -y upgrade
 
 EOI
 }
