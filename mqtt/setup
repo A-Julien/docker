@@ -1,0 +1,59 @@
+#!/bin/bash
+name="mqtt_broker"
+# Get the distribution by comparing packaging tool
+get_distrib(){
+    if [[ -n "$(type -p apt-get)" ]]
+    then
+        distrib="debian"
+    elif [[ -n "$(type -p pacman)" ]]
+    then
+        distrib="arch"
+    elif [[ -n "$(type -p brew)" ]] || [[ -n "$(type -p port)" ]]
+    then
+        distrib="mac"
+    fi
+}
+
+get_arch(){
+    case "$distrib" in
+        "debian")   arch="$(arch)" ;;
+        "arch")     arch="$(uname -m )" ;;
+        "mac")      arch="$(/usr/bin/arch)";;
+        *)          echo "Unknow architecture"
+                    exit "1"
+                    ;;
+    esac
+    if [ "$(echo "$arch" | grep "arm")" ] && [  !"$(echo "$arch" | grep "armv")" ]; then
+        arch="armhf"
+    elif [ "$arch" = "x86_64"  ]; then
+        arch="amd64"
+    fi
+}
+
+#************************************************
+# Build arches is specifed 
+#************************************************
+./entrypoint.sh
+if [ "$1" == "-b" ]; then
+    get_distrib;
+    get_arch;
+    echo "$arch"
+    cd dockerfile/
+    if [ -e "$arch" ]; then
+        cd $arch/
+        pwd
+        docker build -t ${name} .
+    else 
+        echo "arch not found"
+    fi 
+    
+fi
+
+#************************************************
+#  Create Mqtt container
+#************************************************
+docker run \
+        -tid \
+        -p 1883:1883 \
+        --restart=always \
+        ${name}
