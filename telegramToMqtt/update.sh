@@ -50,7 +50,7 @@ EOI
 # update system
 print_update(){
 	cat >> $1 <<-'EOI'
-	RUN apt-get update --fix-missing && \
+	RUN apt-get update && \
         apt-get -y upgrade
 
 EOI

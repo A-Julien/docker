@@ -33,7 +33,6 @@ get_arch(){
 #************************************************
 # Build arches is specifed 
 #************************************************
-./entrypoint.sh
 if [ "$1" == "-b" ]; then
     get_distrib;
     get_arch;
