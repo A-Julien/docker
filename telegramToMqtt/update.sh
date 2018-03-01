@@ -40,22 +40,13 @@ print_basepackages() {
     	org.label-schema.docker.dockerfile="/Dockerfile" \
     	org.label-schema.name="MQTT BROKER"
 	#--------------Install basepackages--------------# 
-	RUN apt-get install --no-install-recommends -y \
+	RUN apt-get update && \
+	    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     	python \
     	python-pip
 
 EOI
 }
-
-# update system
-print_update(){
-	cat >> $1 <<-'EOI'
-	RUN apt-get update
-        RUN apt-get -y upgrade
-
-EOI
-}
-
 
 # install Mosquito
 print_pythonPackages(){
@@ -88,7 +79,6 @@ do
 		echo -n "Writing $file..."
 		print_header ${file};
 		print_baseimage ${file};
-		print_update ${file};
 		print_basepackages ${file};
 		print_pythonPackages ${file};
 		print_command ${file};

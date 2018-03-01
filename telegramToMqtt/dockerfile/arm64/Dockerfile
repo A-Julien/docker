@@ -8,9 +8,6 @@
 
 FROM multiarch/debian-debootstrap:arm64-jessie
     LABEL maintainer = "julien.alaimo@gmail.com"
-RUN apt-get update
-        RUN apt-get -y upgrade
-
 ENV	APPDIR="/telegram"
 
 ENV \
@@ -25,7 +22,8 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
     	org.label-schema.docker.dockerfile="/Dockerfile" \
     	org.label-schema.name="MQTT BROKER"
 #--------------Install basepackages--------------# 
-RUN apt-get install --no-install-recommends -y \
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     	python \
     	python-pip
 
