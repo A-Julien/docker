@@ -8,8 +8,8 @@
 
 FROM multiarch/debian-debootstrap:arm64-jessie
     LABEL maintainer = "julien.alaimo@gmail.com"
-RUN apt-get update && \
-        apt-get -y upgrade
+RUN apt-get update
+        RUN apt-get -y upgrade
 
 ENV	APPDIR="/telegram"
 
