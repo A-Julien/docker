@@ -50,8 +50,8 @@ EOI
 # update system
 print_update(){
 	cat >> $1 <<-'EOI'
-	RUN apt-get update && \
-        apt-get -y upgrade
+	RUN apt-get update
+        RUN apt-get -y upgrade
 
 EOI
 }
