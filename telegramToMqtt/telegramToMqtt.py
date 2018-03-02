@@ -5,9 +5,10 @@ from time import sleep
 import paho.mqtt.client as mqtt
 import requests
 import json
+from urllib2 import urlopen
+from time import gmtime, strftime
 
-
-config = json.load(open('/opt/telegram/config.json'))
+config = json.load(open('/opt/telegramToMqtt/config.json'))
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -27,7 +28,7 @@ MQTT_PUB_TOPIC = config["mqtt"]["MQTT_PUB_TOPIC"]
 #               Mqtt                        #
 # ******************************************#
 
-MQTT_BROKER_ADR = config["mqtt"]["MQTT_BROKER_ADR"]
+MQTT_BROKER_ADR = "0.0.0.0"#config["mqtt"]["MQTT_BROKER_ADR"]
 MQTT_BROKER_PORT = int(config["mqtt"]["MQTT_BROKER_PORT"])
 MQTT_NAME = config["mqtt"]["MQTT_NAME"]
 
@@ -87,30 +88,54 @@ def error(bot, update, error):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, error)
 
+def getIpInfo():
+    url = 'http://ipinfo.io/json'
+    response = urlopen(url)
+    return json.load(response)
+
+
 def main(): 
+
     logger.info("Start mqtt client")
 
-    client.on_connect = on_connect
-    client.on_message = on_message
-
-    client.connect(MQTT_BROKER_ADR, MQTT_BROKER_PORT, 60)
-    
-    client.loop_start()
-
-    logger.info("Start telegram bot")
+    """telegram bot"""
     updater = Updater(token)
-
     dp = updater.dispatcher
+    updater.bot.send_message(chat_id, text="*________________________________*\n" 
+                                        + "*"+strftime("%Y-%m-%d %H:%M:%S", gmtime())+"*", 
+                                        parse_mode=telegram.ParseMode.MARKDOWN)
+    updater.bot.send_message(chat_id, text="Booting [<b>...</b>]",parse_mode=telegram.ParseMode.HTML)
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
     dp.add_handler(CommandHandler("tomqtt", toMqtt))
 
     dp.add_handler(MessageHandler(Filters.text, echo))
+    
+    """Mqtt client"""
+    client.on_connect = on_connect
+    client.on_message = on_message
 
-    updater.bot.sendMessage(chat_id, "Booting [OK]")
+    client.connect(MQTT_BROKER_ADR, MQTT_BROKER_PORT, 60)
+    
+    client.loop_start()
+    updater.bot.send_message(chat_id, text="Client MQTT [<b>OK</b>]",parse_mode=telegram.ParseMode.HTML)
+    
+    logger.info("Start telegram bot")
+    data = getIpInfo()
+  
     # log all errors
     dp.add_error_handler(error)
+
+    #log box info
+    updater.bot.send_message(chat_id, text="*server running at : " + data['ip']+"*\n"
+                                            +"_city : " + data['city']+ "_\n"
+                                            +"_region : " + data['region']+"_",
+                                            +"_country : " + data['country']+"_\n"
+                                            parse_mode=telegram.ParseMode.MARKDOWN)
+
+    updater.bot.send_message(chat_id, text="Boot [<b>OK</b>]",parse_mode=telegram.ParseMode.HTML)
+    updater.bot.send_message(chat_id, text="*________________________________*", parse_mode=telegram.ParseMode.MARKDOWN)
 
     # Start the Bot
     updater.start_polling()

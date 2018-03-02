@@ -30,29 +30,27 @@ get_arch(){
     fi
 }
 
-#************************************************
-# Build arches is specifed 
-#************************************************
-if [ "$1" == "-b" ]; then
-    get_distrib;
-    get_arch;
+get_distrib;
+get_arch;
+if [ -e "dockerfile/"$arch ]; then
     echo "$arch"
-    cd dockerfile/
-    if [ -e "$arch" ]; then
+    #************************************************
+    # Build arches is specifed 
+    #************************************************
+    if [ "$1" == "-b" ]; then
         cd $arch/
         pwd
         docker build -t ${name} .
-    else 
-        echo "arch not found"
     fi 
-    
+        
+    #************************************************
+    #  Create Mqtt container
+    #************************************************
+    docker run \
+            -tid \
+            -p 1883:1883 \
+            --restart=always \
+            jalaimo/${name}:${arch}
+else 
+    echo "arch not found"
 fi
-
-#************************************************
-#  Create Mqtt container
-#************************************************
-docker run \
-        -tid \
-        -p 1883:1883 \
-        --restart=always \
-        ${name}
