@@ -4,7 +4,7 @@ arches="amd64 armhf i386 arm64"
 
 print_header() {
 	cat > $1 <<-EOI
-	# Mqtt image
+	# hall_sensorToMqtt image
 	#
 	# ------------------------------------------------------------------------------
 	#               NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
@@ -39,21 +39,22 @@ print_basepackages() {
 	LABEL org.label-schema.build-date=$BUILD_DATE \
     	org.label-schema.docker.dockerfile="/Dockerfile" \
     	org.label-schema.name="MQTT BROKER"
-	#--------------Install basepackages--------------# 
-	RUN apt-get update && \
-	    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
-    	python \
-    	python-pip
 
+	#--------------Install basepackages--------------# 
+	RUN apt-get update -y && \
+	    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y
+    RUN apt-get install -y python \
+    	python-pip \
+		python-dev
+		
+	RUN apt-get install -y build-essential
 EOI
 }
 
 # install Mosquito
 print_pythonPackages(){
 	cat >> $1 <<-'EOI'
-	RUN pip install requests
-	RUN pip install paho-mqtt
-	RUN pip install python-telegram-bot --upgrade
+	RUN pip install paho-mqtt RPi.GPIO
 EOI
 }
 
@@ -63,7 +64,7 @@ print_command() {
 	cat >> $1 <<-'EOI'
 	# Execute command
 	EXPOSE 1883
-	ADD telegramToMqtt.py ${APPDIR}/
+	ADD hall_sensor.py ${APPDIR}/
 	ADD entrypoint.sh /
 	RUN chmod +x /entrypoint.sh
 	ENTRYPOINT ["/entrypoint.sh"]
@@ -83,6 +84,6 @@ do
 		print_pythonPackages ${file};
 		print_command ${file};
 		cp entrypoint.sh dockerfile/${arch}/entrypoint.sh
-		cp telegramToMqtt.py dockerfile/${arch}/telegramToMqtt.py
+		cp hall_sensor.py dockerfile/${arch}/hall_sensor.py
 		echo "done"
 done

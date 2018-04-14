@@ -4,7 +4,7 @@ arches="amd64 armhf i386 arm64"
 
 print_header() {
 	cat > $1 <<-EOI
-	# Mqtt image
+	# telegramToMqtt image
 	#
 	# ------------------------------------------------------------------------------
 	#               NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"

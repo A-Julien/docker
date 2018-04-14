@@ -1,7 +1,7 @@
 {
 	"mqtt":{
 		"Name": "Mqtt",
-		"MQTT_TOPIC_SUFFIX": "hall",
+		"MQTT_TOPIC_SUFFIX": "hall_sensor",
 		"MQTT_PUB_TOPIC": "data",
         "MQTT_BROKER_ADR": "172.17.0.1",
         "MQTT_BROKER_PORT": "1883",

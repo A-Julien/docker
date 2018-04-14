@@ -1,5 +1,5 @@
 #!/bin/bash
-name="telegram-to-mqtt"
+name="hall_sensor"
 # Get the distribution by comparing packaging tool
 get_distrib(){
     if [[ -n "$(type -p apt-get)" ]]
@@ -52,3 +52,8 @@ if [ -e "dockerfile/"$arch ]; then
 else 
     echo "arch not found"
 fi
+
+ docker run \
+            -tid \
+            -v /opt/hall_sensor:/opt/hall_sensor \
+	        --privileged hall_sensor
