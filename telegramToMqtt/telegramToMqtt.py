@@ -1,5 +1,6 @@
 import logging
 import telegram
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from time import sleep
 import paho.mqtt.client as mqtt
@@ -93,10 +94,17 @@ def getIpInfo():
     response = urlopen(url)
     return json.load(response)
 
+def photo(bot, update):
+    file_id = update.message.photo[-1].file_id
+    newFile = bot.getFile(file_id)
+    newFile.download('test.jpg')
+    bot.sendMessage(chat_id=update.message.chat_id, text="download succesfull")
+
+
 
 def main(): 
 
-    logger.info("Start mqtt client")
+    logger.info("Start telegram bot")
 
     """telegram bot"""
     updater = Updater(token)
@@ -109,10 +117,12 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
     dp.add_handler(CommandHandler("tomqtt", toMqtt))
-
+    dp.add_handler(MessageHandler(Filters.photo, photo))
     dp.add_handler(MessageHandler(Filters.text, echo))
     
     """Mqtt client"""
+    logger.info("Start mqtt client")
+
     client.on_connect = on_connect
     client.on_message = on_message
 
@@ -130,12 +140,13 @@ def main():
     #log box info
     updater.bot.send_message(chat_id, text="*server running at : " + data['ip']+"*\n"
                                             +"_city : " + data['city']+ "_\n"
-                                            +"_region : " + data['region']+"_",
-                                            +"_country : " + data['country']+"_\n"
+                                            +"_region : " + data['region']+"_\n"
+                                            +"_country : " + data['country']+"_",
                                             parse_mode=telegram.ParseMode.MARKDOWN)
 
     updater.bot.send_message(chat_id, text="Boot [<b>OK</b>]",parse_mode=telegram.ParseMode.HTML)
     updater.bot.send_message(chat_id, text="*________________________________*", parse_mode=telegram.ParseMode.MARKDOWN)
+
 
     # Start the Bot
     updater.start_polling()

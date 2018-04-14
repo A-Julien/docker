@@ -1,0 +1,14 @@
+{
+	"mqtt":{
+		"Name": "Mqtt",
+		"MQTT_TOPIC_SUFFIX": "hall",
+		"MQTT_PUB_TOPIC": "data",
+        "MQTT_BROKER_ADR": "172.17.0.1",
+        "MQTT_BROKER_PORT": "1883",
+        "MQTT_NAME": "hall_sensor"
+	},
+	"GPIO":{
+		"PIN": "14",
+		"mode": "BCM"
+	}
+}
