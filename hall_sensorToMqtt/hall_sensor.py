@@ -1,9 +1,9 @@
-import logging
+import logging, sys
 from time import sleep
 import paho.mqtt.client as mqtt
-import requests
 import json
-from time import gmtime, strftime
+import time
+from logging.handlers import RotatingFileHandler
 import RPi.GPIO as GPIO
 
 DEBUG = True
@@ -24,7 +24,7 @@ try :
     handler = RotatingFileHandler(root + '/hall_sensor.log', mode='a', maxBytes=5 * 1024 * 1024,
                                  backupCount=2, encoding=None, delay=0)
 except IOError as e:
-    print("["+bcolors.FAIL +"ERR"+bcolors.ENDC+"] can't find folder " + root)
+    print("[ERR] can't find folder " + root)
     print "I/O error({0}): {1}".format(e.errno, e.strerror)
     sys.exit(1)
 
@@ -76,12 +76,9 @@ client = mqtt.Client()
 def publish_data(data):
     global client
     client.publish(MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC, data)
-    logger.info()
+    logger.info("Data publish on " + MQTT_PUB_TOPIC)
 
 def sensorCallback(channel):
-  # Called if sensor output changes
-  timestamp = time.time()
-  stamp = datetime.datetime.fromtimestamp(timestamp).strftime('%H:%M:%S')
   if GPIO.input(channel):
     # No magnet
     publish_data(0)
@@ -94,7 +91,7 @@ def sensorCallback(channel):
 
 def setupGPIO():
     """ GPIO Setup """
-    if config["mqtt"]["GPIO"] == "BCM":
+    if config["GPIO"]["mode"] == "BCM":
         GPIO.setmode(GPIO.BCM)
     else:
         GPIO.setmode(GPIO.BOARD)
@@ -115,7 +112,14 @@ def main():
     client.connect(MQTT_BROKER_ADR, MQTT_BROKER_PORT, 60)
     
     client.loop_start()
-   
+    logger.info("[CON] Connection to " + MQTT_BROKER_ADR + " broker on port " + str(MQTT_BROKER_PORT))
+
+    logger.info("\n Available topic : ")
+    logger.info(MQTT_TOPIC_SUFFIX)
+
+
+    while True :
+        time.sleep(.1)   
    
 
 if __name__ == '__main__':
