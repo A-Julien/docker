@@ -1,0 +1,18 @@
+{
+	"mqtt":{
+		"Name": "Mqtt",
+		"MQTT_TOPIC_SUFFIX": "motor",
+		"MQTT_TOPIC_RIGHT": "right",
+		"MQTT_TOPIC_LEFT" : "left",
+        "MQTT_BROKER_ADR": "172.17.0.1",
+        "MQTT_BROKER_PORT": "1883",
+        "MQTT_NAME": "MqttToPwm"
+	},
+	"GPIO":{
+		"PinR": "18",
+		"PinL": "13",
+		"Rfreq" : "50",
+		"Lfreq" : "50",
+		"Mode": "BCM"
+	}
+}

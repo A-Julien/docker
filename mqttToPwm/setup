@@ -1,5 +1,5 @@
 #!/bin/bash
-name="hall_sensor"
+name="mqtto_pwm"
 # Get the distribution by comparing packaging tool
 get_distrib(){
     if [[ -n "$(type -p apt-get)" ]]
@@ -47,9 +47,15 @@ if [ -e "dockerfile/"$arch ]; then
     #************************************************
     docker run \
             -tid \
-            -v /opt/hall_sensor:/opt/hall_sensor \
-	        --privileged \
+            --restart=always \
             jalaimo/${name}:${arch}
 else 
     echo "arch not found"
 fi
+
+ docker run \
+            -tid \
+            -v /opt/mqttToPwm:/opt/mqttToPwm \
+	        --privileged mqttopwm
+
+
