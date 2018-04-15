@@ -39,6 +39,12 @@ logger.setLevel(logging.INFO)
 #logger.addHandler(handler)
 
 
+def toBool(s):
+    if s == "True":
+        return True
+    elif s == "False":
+        return False
+
 
 # ******************************************#
 #               Config                      #
@@ -57,6 +63,7 @@ except IOError:
 
 PinR = int(config["GPIO"]["PinR"])
 PinL = int(config["GPIO"]["PinL"])
+PinEnable = int(config["GPIO"]["PinEnable"])
 pR = None
 pL = None
 
@@ -66,6 +73,7 @@ pL = None
 MQTT_TOPIC_SUFFIX = config["mqtt"]["MQTT_TOPIC_SUFFIX"]
 MQTT_TOPIC_RIGHT = config["mqtt"]["MQTT_TOPIC_RIGHT"]
 MQTT_TOPIC_LEFT = config["mqtt"]["MQTT_TOPIC_LEFT"]
+MQTT_TOPIC_ENABLE = config["mqtt"]["MQTT_TOPIC_ENABLE"]
 
 # ******************************************#
 #               Mqtt                        #
@@ -80,9 +88,12 @@ client = mqtt.Client()
 def on_connect(client, userdata, flags, rc):
     client.subscribe(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_RIGHT)
     client.subscribe(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_LEFT)
+    client.subscribe(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_ENABLE)
+
     logger.info("Connected with result code " + str(rc))
     logger.info(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_RIGHT)
     logger.info(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_LEFT)
+    logger.info(MQTT_TOPIC_SUFFIX + '/' + MQTT_TOPIC_ENABLE)
 
 def on_message(client, userdata, msg):
     global pL
@@ -91,15 +102,25 @@ def on_message(client, userdata, msg):
     logger.info("message received from " + msg.topic + ", value : " + str(msg.payload))
     topic = str(msg.topic).split('/')
     value = int(msg.payload)
-    try:
-        if( value < 0 or value > 100):
-            raise Exception
-    except:
-        logger.error( "[ERR] 0 > Duty cycle < 100")
+   
+        
     if topic[1] == MQTT_TOPIC_RIGHT:
-        pR.ChangeDutyCycle(value)
+        if( value < 0 or value > 100):
+            logger.error( "[ERR] 0 > Duty cycle < 100")
+        else:
+            pR.ChangeDutyCycle(value)
     elif topic[1] == MQTT_TOPIC_LEFT:
-        pL.ChangeDutyCycle(value)
+        if( value < 0 or value > 100):
+            logger.error( "[ERR] 0 > Duty cycle < 100")
+        else:
+            pL.ChangeDutyCycle(value)
+    elif topic[1] == MQTT_TOPIC_ENABLE:
+        if value == 1:
+            GPIO.output(PinEnable,GPIO.HIGH)
+        elif value == 0:
+            GPIO.output(PinEnable,GPIO.LOW)
+        else :
+            logger.error("[ERR] Enable 0 or 1 ")
     else:
         logger.error("[ERR] No topic available for " + topic[1])
 
@@ -112,8 +133,12 @@ def setupGPIO():
         GPIO.setmode(GPIO.BCM)
     else:
         GPIO.setmode(GPIO.BOARD)
+
     GPIO.setup(PinR, GPIO.OUT)
     GPIO.setup(PinL, GPIO.OUT)
+    GPIO.setup(PinEnable, GPIO.OUT)
+
+    GPIO.output(PinEnable, GPIO.LOW)
 
     pR = GPIO.PWM(PinR, int(config["GPIO"]["Rfreq"]))
     pL = GPIO.PWM(PinL, int(config["GPIO"]["Lfreq"]))
