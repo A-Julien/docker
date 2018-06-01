@@ -1,10 +1,10 @@
 import logging
+#from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+import requests
 import telegram
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from time import sleep
 import paho.mqtt.client as mqtt
-import requests
 import json
 from urllib2 import urlopen
 from time import gmtime, strftime
