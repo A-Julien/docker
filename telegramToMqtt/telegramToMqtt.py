@@ -15,8 +15,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-chat_id = config["telegrame"]["chat_id"]
-token = config["telegrame"]["token"]
+chat_id = config["telegram"]["chat_id"]
+token = config["telegram"]["token"]
 
 # ******************************************#
 #               Mqtt Topic                  #
