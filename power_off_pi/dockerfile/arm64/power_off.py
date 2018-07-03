@@ -2,6 +2,7 @@
 
 import RPi.GPIO as GPIO
 import json
+import sys
 import subprocess
 
 root = "/opt/powerOff"
@@ -13,7 +14,7 @@ root = "/opt/powerOff"
 try:
     config = json.load(open(root + '/config.json'))
 except IOError:
-    logger.error("can not find conf.json at " + root + "/conf.json")
+    print "can not find conf.json at " + root + "/conf.json"
     sys.exit()
 
 
