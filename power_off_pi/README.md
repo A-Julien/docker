@@ -9,6 +9,7 @@
 docker run \
         -tid \
         --privileged \
+        --restart=always \
         -v /opt/powerOff:/opt/powerOff \
         -v /var/run/systemd:/var/run/systemd \
         jalaimo/power_off_pi
