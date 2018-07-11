@@ -37,7 +37,7 @@ if [ -e "dockerfile/"$arch ]; then
     # Build arches is specifed 
     #************************************************
     if [ "$1" == "-b" ]; then
-        cd $arch/
+        cd dockerfile/$arch/
         pwd
         docker build -t ${name} .
     fi 

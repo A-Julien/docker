@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+use Data::Dumper;
+use WWW::Telegram::BotAPI;
+
+my $TOKEN = '565544065:AAEjrTzyCakodRLh6FDzx9jrWDAQCvAP50s';
+my $api = WWW::Telegram::BotAPI->new (
+    token => $TOKEN
+) or die "I can't connect";
+
+my $out = $api->api_request ('getUpdates');
+warn Dumper($out);
+my $chat_id = $out->{result}->[0]->{message}->{chat}->{id};
+print "chat_id=$chat_id\n";
