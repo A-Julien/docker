@@ -39,13 +39,7 @@ RUN apt-get install --no-install-recommends -y \
     	apt-get clean
 
 #--------------Nodejs--------------#
-#	RUN apt-get install -y nodejs npm\
-#    	&& npm install debug 
-#   	&& npm install mdns
-
 RUN apt-get install -y curl python-software-properties
 
     RUN	curl -sL https://deb.nodesource.com/setup_8.x | bash - \
-    	&& apt-get install -y nodejs \
-    	&& npm install debug \
-    	&& npm install mdns
+    	&& apt-get install -y nodejs
