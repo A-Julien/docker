@@ -94,7 +94,7 @@ def publish_data(data):
 
 
 def cb(channel):  
-    if GPIO.input(25):     # if port 25 == 1  
+    if GPIO.input(21):     # if port 25 == 1  
         publish_data("0")
     else:                  # if port 25 != 1  
         publish_data("1")
