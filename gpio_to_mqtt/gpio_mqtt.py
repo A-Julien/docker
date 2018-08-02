@@ -82,7 +82,7 @@ def setupGPIO():
         GPIO.setmode(GPIO.BOARD)
 
     GPIO.setup(Pin, GPIO.IN)
-    GPIO.add_event_detect(Pin, GPIO.BOTH, callback=cb, bouncetime=200) # Wait for the input to go low, run the function when it does
+    GPIO.add_event_detect(Pin, GPIO.BOTH, callback=cb) # Wait for the input to go low, run the function when it does
 
 def on_connect(client, userdata, flags, rc):
     logger.info("Connected with result code " + str(rc))
