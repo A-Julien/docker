@@ -9,6 +9,6 @@
 	},
 	"GPIO":{
 		"PIN": "20",
-		"MODE": "BCM"
+		"BOARD_MODE_ONLY": "BOARD"
 	}
 }

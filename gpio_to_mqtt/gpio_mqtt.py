@@ -96,9 +96,9 @@ def publish_data(data):
 def cb(channel):  
     print(channel)
     if GPIO.input(channel):     # if port 25 == 1  
-        publish_data("0")
-    else:                  # if port 25 != 1  
         publish_data("1")
+    else:                  # if port 25 != 1  
+        publish_data("0")
 
 client = mqtt.Client()
 
