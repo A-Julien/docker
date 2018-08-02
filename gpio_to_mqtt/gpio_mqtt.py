@@ -82,8 +82,7 @@ def setupGPIO():
         GPIO.setmode(GPIO.BOARD)
 
     GPIO.setup(Pin, GPIO.IN, GPIO.IN)
-    GPIO.add_event_detect(Pin, GPIO.RISING, callback=cb_rising, bouncetime=200) # Wait for the input to go low, run the function when it does
-    GPIO.add_event_detect(Pin, GPIO.FALLING, callback=cb_falling, bouncetime=200) # Wait for the input to go low, run the function when it does
+    GPIO.add_event_detect(Pin, GPIO.BOTH, callback=cb, bouncetime=200) # Wait for the input to go low, run the function when it does
 
 def on_connect(client, userdata, flags, rc):
     logger.info("Connected with result code " + str(rc))
@@ -93,13 +92,12 @@ def publish_data(data):
     client.publish("/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC, data)
     logger.info("Data publish on " + MQTT_PUB_TOPIC)
 
-# Create a function to run when the input is high
-def cb_rising(channel):
-    print('cube charging')
-    publish_data("1")
 
-def cb_falling(chanel):
-    publish_data("0")
+def cb(channel):  
+    if GPIO.input(25):     # if port 25 == 1  
+        publish_data("0")
+    else:                  # if port 25 != 1  
+        publish_data("1")
 
 client = mqtt.Client()
 
