@@ -76,12 +76,12 @@ Pin = int(config["GPIO"]["PIN"])
 
 
 def setupGPIO():
-    if config["GPIO"]["mode"] == "BCM":
+    if config["GPIO"]["MODE"] == "BCM":
         GPIO.setmode(GPIO.BCM)
     else:
         GPIO.setmode(GPIO.BOARD)
 
-    GPIO.setup(Pin, GPIO.IN, GPIO.IN)
+    GPIO.setup(Pin, GPIO.IN)
     GPIO.add_event_detect(Pin, GPIO.BOTH, callback=cb, bouncetime=200) # Wait for the input to go low, run the function when it does
 
 def on_connect(client, userdata, flags, rc):
