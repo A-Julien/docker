@@ -87,11 +87,10 @@ def on_connect(client, userdata, flags, rc):
 def publish_data(data):
     global client
     client.publish("/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC, data)
-    logger.info("Data publish on " + "/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC + ":" + data)
+    logger.info("Data publish on " + "/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC + ": " + data)
 
 
 def cb(channel):  
-    print(channel)
     if GPIO.input(channel):     # if port 25 == 1  
         publish_data("1")
     else:                  # if port 25 != 1  
