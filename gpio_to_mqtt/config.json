@@ -8,7 +8,7 @@
         "MQTT_NAME": "gpio"
 	},
 	"GPIO":{
-		"PIN": "20",
+		"PIN": "38",
 		"BOARD_MODE_ONLY": "BOARD"
 	}
 }

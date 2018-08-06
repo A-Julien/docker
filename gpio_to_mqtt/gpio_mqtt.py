@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # add the handlers to the logger
-#logger.addHandler(handler)
+logger.addHandler(handler)
 
 
 # ******************************************#
@@ -87,7 +87,7 @@ def on_connect(client, userdata, flags, rc):
 def publish_data(data):
     global client
     client.publish("/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC, data)
-    logger.info("Data publish on " + MQTT_PUB_TOPIC)
+    logger.info("Data publish on " + "/" + MQTT_TOPIC_SUFFIX + "/" + MQTT_PUB_TOPIC + ":" + data)
 
 
 def cb(channel):  
