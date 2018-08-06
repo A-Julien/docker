@@ -4,7 +4,7 @@ pwd
 # Start power off script
 #************************************************
 
-python ${APPDIR}/power_off.py
+python ${APPDIR}/gpio_mqtt.py
 
 #************************************************
 # keep container alive

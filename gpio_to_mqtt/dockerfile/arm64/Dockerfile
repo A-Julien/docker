@@ -29,9 +29,10 @@ python \
 python-dev \
 python-pip \
 build-essential 
-RUN pip install rpi.gpio		
+RUN pip install rpi.gpio
+RUN pip install paho-mqtt		
 # Execute command
-ADD power_off.py ${APPDIR}/
+ADD gpio_mqtt.py ${APPDIR}/
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

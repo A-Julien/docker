@@ -47,7 +47,8 @@ print_basepackages() {
 		python-dev \
 		python-pip \
 		build-essential 
-	RUN pip install rpi.gpio		
+	RUN pip install rpi.gpio
+	RUN pip install paho-mqtt		
 EOI
 }
 
@@ -56,7 +57,7 @@ EOI
 print_command() {
 	cat >> $1 <<-'EOI'
 	# Execute command
-	ADD power_off.py ${APPDIR}/
+	ADD gpio_mqtt.py ${APPDIR}/
 	ADD entrypoint.sh /
 	RUN chmod +x /entrypoint.sh
 	ENTRYPOINT ["/entrypoint.sh"]
@@ -75,6 +76,6 @@ do
 		print_basepackages ${file};
 		print_command ${file};
 		cp entrypoint.sh dockerfile/${arch}/entrypoint.sh
-		cp power_off.py dockerfile/${arch}/power_off.py
+		cp gpio_mqtt.py dockerfile/${arch}/gpio_mqtt.py
 		echo "done"
 done
