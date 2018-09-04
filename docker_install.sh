@@ -44,7 +44,7 @@ install_docker_debian (){
     echo "Installing docker"
     echo "Install packages to allow apt to use a repository over HTTPS:"
     echo "----------------------------------"
-    sudo apt-get install -y \
+    apt-get install -y \
      apt-transport-https \ 
      ca-certificates \
      curl \
@@ -55,7 +55,7 @@ install_docker_debian (){
     echo "----------------------------------"
     if [ "$(dpkg-query -W -f='${Status}' curl 2>/dev/null | grep -c "installed")" -eq 0 ];
     then
-        sudo apt-get install -y curl
+        apt-get install -y curl
     fi
     curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
     
@@ -87,11 +87,11 @@ install_docker_debian (){
 
     if ! lsb_release -i | grep Raspbian ;
     then
-        sudo apt-get update -y
-        sudo apt-get install -y docker-ce
+        apt-get update -y
+        apt-get install -y docker-ce
     fi
 
-    sudo usermod -aG docker "$USER"
+    usermod -aG docker "$USER"
     echo -e "docker user : OK"
     echo -e "reboot now ? [y/n]"
     read a
