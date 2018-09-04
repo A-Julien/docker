@@ -57,7 +57,7 @@ install_docker_debian (){
     then
         apt-get install -y curl
     fi
-    curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+    curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
     
     echo "----------------------------------"
 
@@ -76,7 +76,7 @@ install_docker_debian (){
         "armhf")
             echo "deb [arch=armhf] https://download.docker.com/linux/debian \
             $(lsb_release -cs) stable" | \
-            sudo tee /etc/apt/sources.list.d/docker.list
+            tee /etc/apt/sources.list.d/docker.list
             ;;
         *)
             echo "error - Architecture not fount"
