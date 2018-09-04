@@ -44,6 +44,7 @@ install_docker_debian (){
     echo "Installing docker"
     echo "Install packages to allow apt to use a repository over HTTPS:"
     echo "----------------------------------"
+    apt-get update
     apt-get install -y \
      apt-transport-https \ 
      ca-certificates \
