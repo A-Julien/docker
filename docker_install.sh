@@ -100,6 +100,6 @@ install_docker_debian (){
        sudo reboot
     fi
 }
-
+get_distrib;
 get_arch;
 install_docker_debian;
