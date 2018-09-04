@@ -1,0 +1,57 @@
+#!/bin/bash
+name="gpio_mqtt"
+# Get the distribution by comparing packaging tool
+get_distrib(){
+    if [[ -n "$(type -p apt-get)" ]]
+    then
+        distrib="debian"
+    elif [[ -n "$(type -p pacman)" ]]
+    then
+        distrib="arch"
+    elif [[ -n "$(type -p brew)" ]] || [[ -n "$(type -p port)" ]]
+    then
+        distrib="mac"
+    fi
+}
+
+get_arch(){
+    case "$distrib" in
+        "debian")   arch="$(arch)" ;;
+        "arch")     arch="$(uname -m )" ;;
+        "mac")      arch="$(/usr/bin/arch)";;
+        *)          echo "Unknow architecture"
+                    exit "1"
+                    ;;
+    esac
+    if [ "$(echo "$arch" | grep "arm")" ] && [  !"$(echo "$arch" | grep "armv")" ]; then
+        arch="armhf"
+    elif [ "$arch" = "x86_64"  ]; then
+        arch="amd64"
+    fi
+}
+get_distrib;
+get_arch;
+
+if [ -e "dockerfile/"$arch ]; then
+    echo "$arch"
+    #************************************************
+    # Build arches is specifed 
+    #************************************************
+    if [ "$1" == "-b" ]; then
+        cd dockerfile/$arch/
+        pwd
+        docker build -t ${name} .
+    fi 
+        
+    #************************************************
+    #  Create Mqtt container
+    #************************************************
+    docker run \
+            --name gpio_mqtt \
+            -tid \
+            -v /opt/gpioMqtt:/opt/gpioMqtt \
+	        --privileged \
+            jalaimo/${name}:${arch}
+else 
+    echo "arch not found"
+fi
