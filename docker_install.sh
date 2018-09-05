@@ -94,12 +94,6 @@ install_docker_debian (){
 
     usermod -aG docker "$USER"
     echo -e "docker user : OK"
-    echo -e "reboot now ? [y/n]"
-    read a
-    if [[ "$a" = "y" ]];
-    then
-       sudo reboot
-    fi
 }
 get_distrib;
 get_arch;
