@@ -1,5 +1,6 @@
 {
 	"GPIO":{
+		"TYPE":"BCM ONLY",
 		"Pin": "3"
 	}
 }
