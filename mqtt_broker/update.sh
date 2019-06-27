@@ -19,61 +19,51 @@ print_header() {
 print_baseimage() {
 	cat >> $1 <<-EOI
 	FROM multiarch/debian-debootstrap:${arch}-jessie
-    LABEL maintainer = "julien.alaimo@gmail.com"
+
+	# Basic build-time metadata as defined at http://label-schema.org
+	ARG VCS_REF
+	ARG	BUILD_DATE
+    LABEL maintainer = "julien.alaimo@gmail.com" \
+			org.label-schema.build-date=$BUILD_DATE \
+			org.label-schema.docker.dockerfile="/Dockerfile" \
+			org.label-schema.name="MQTT BROKER"
 	EOI
 }
 
 # Print metadata && basepackages
 print_basepackages() {
 	cat >> $1 <<-'EOI'	
-	ENV	APPDIR="/MQTT_BROKER"
-
 	ENV \
     	INITSYSTEM on \
     	DEBIAN_FRONTEND=noninteractive \
-    	DOMI_MQTT_PORT="1884"
-
-	# Basic build-time metadata as defined at http://label-schema.org
-	ARG BUILD_DATE
-	ARG VCS_REF
-	LABEL org.label-schema.build-date=$BUILD_DATE \
-    	org.label-schema.docker.dockerfile="/Dockerfile" \
-    	org.label-schema.name="MQTT BROKER"
+    	DOMI_MQTT_PORT="1884" \
+		APPDIR="/MQTT_BROKER"
 EOI
 }
-
-# update system
-print_update(){
-	cat >> $1 <<-'EOI'
-	RUN apt-get update && \
-        apt-get -y upgrade
-
-EOI
-}
-
 
 # install Mosquito
 print_mosquito(){
 	cat >> $1 <<-'EOI'
 	#--------------Mosquito--------------#
-	RUN apt-get install --no-install-recommends -y \
+	RUN printf "deb http://archive.debian.org/debian/ jessie main\ndeb-src http://archive.debian.org/debian/ jessie main\ndeb http://security.debian.org jessie/updates main\ndeb-src http://security.debian.org jessie/updates main" > /etc/apt/sources.list
+	RUN apt-get -qq update > /dev/null && DEBIAN_FRONTEND=noninteractive apt-get -qq -y --no-install-recommends install \
     	mosquitto-clients \
-    	mosquitto
+		avahi-daemon \
+    	mosquitto && \
+		apt-get clean && \
+		rm -rf /var/lib/apt/lists/ */tmp/* /var/tmp/*
 
 EOI
 }
-
-
-
 
 # Set working directory and execute command
 print_command() {
 	cat >> $1 <<-'EOI'
 	# Execute command
 	EXPOSE 1883
-	ADD entrypoint.sh /
+	#ADD entrypoint.sh /
 	ADD logo /
-	RUN chmod +x /entrypoint.sh
+	#RUN chmod +x /entrypoint.sh
 	CMD ["/usr/sbin/mosquitto"]
 
 EOI
@@ -88,10 +78,9 @@ do
 		echo -n "Writing $file..."
 		print_header ${file};
 		print_baseimage ${file};
-		print_update ${file};
 		print_basepackages ${file};
 		print_mosquito ${file};
 		print_command ${file};
-		cp entrypoint.sh dockerfile/${arch}/entrypoint.sh
+		cp logo dockerfile/${arch}/logo
 		echo "done"
 done
